@@ -1,0 +1,18 @@
+{
+  "id": "auth-guard-system",
+  "name": "Auth & Guard System",
+  "domain": "bike-rental",
+  "category": "feature",
+  "description": "Complete authentication system with context provider, guards, and tabbed auth forms",
+  "solves": ["User authentication", "Route protection", "Role-based access", "Auth state management"],
+  "includes": {
+    "components": "AuthTabbedForm, ProtectedRoute, RoleBasedRoute",
+    "contexts": "AuthContext",
+    "hooks": "Auth hooks, useIsMobile"
+  },
+  "best_for": ["Any app requiring authentication", "Multi-role systems", "Protected routes"],
+  "setup_time": "30 minutes",
+  "maturity": "production-ready",
+  "extracted_from": "Five Star Car Hire",
+  "tags": ["auth", "authentication", "guards", "roles", "protection"]
+}

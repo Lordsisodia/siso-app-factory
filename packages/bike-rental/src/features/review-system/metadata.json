@@ -1,0 +1,17 @@
+{
+  "id": "review-rating-system",
+  "name": "Review & Rating System",
+  "domain": "bike-rental",
+  "category": "feature",
+  "description": "Complete review system with star ratings, review forms, review lists, and user review management",
+  "solves": ["Customer reviews", "Star ratings", "Review submission", "Review display", "User review history"],
+  "includes": {
+    "components": "ReviewStars, ReviewCard, ReviewForm, ReviewsList, ReviewsSection, MyReviews",
+    "utils": "Review utilities and management"
+  },
+  "best_for": ["Rental platforms", "E-commerce", "Service providers", "Any business needing reviews"],
+  "setup_time": "25 minutes",
+  "maturity": "production-ready",
+  "extracted_from": "Five Star Car Hire",
+  "tags": ["reviews", "ratings", "feedback", "testimonials"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "user-dashboard-system",
+  "name": "User Dashboard System",
+  "domain": "bike-rental",
+  "category": "feature",
+  "description": "User dashboard with stats, activity feed, and upcoming reservations",
+  "solves": ["User dashboard", "Activity tracking", "Reservation overview", "Statistics display"],
+  "includes": {
+    "components": "StatsGrid, StatCard, ActivityFeed, UpcomingReservations"
+  },
+  "best_for": ["Customer portals", "User dashboards", "Booking platforms"],
+  "setup_time": "20 minutes",
+  "maturity": "production-ready",
+  "extracted_from": "Five Star Car Hire",
+  "tags": ["dashboard", "user-portal", "stats", "activity"]
+}
