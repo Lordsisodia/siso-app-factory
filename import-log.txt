@@ -1,0 +1,1787 @@
+🚀 Importing from ALL libraries...
+
+
+📦 Importing from: 21st-cli-source
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: 21st-dev-official
+   Found 326 component files
+......................................................................................................................................................................................................................................................................................................................................
+   ✅ Imported: 326
+   ⚠️  Skipped: 0
+   📊 By type: {
+  misc: 195,
+  charts: 5,
+  'spinner-loaders': 4,
+  cards: 15,
+  modals: 26,
+  paginations: 2,
+  links: 1,
+  'sign-ins': 3,
+  sliders: 1,
+  forms: 10,
+  inputs: 2,
+  tabs: 5,
+  heroes: 2,
+  selects: 5,
+  sidebars: 4,
+  tables: 6,
+  alerts: 2,
+  'file-trees': 1,
+  toggles: 4,
+  tags: 2,
+  icons: 2,
+  accordions: 2,
+  avatars: 2,
+  badges: 1,
+  buttons: 6,
+  menus: 5,
+  checkboxes: 1,
+  progress: 2,
+  drawers: 2,
+  'hero-sections': 1,
+  popovers: 1,
+  'radio-groups': 1,
+  skeletons: 2,
+  'text-areas': 1,
+  toasts: 1,
+  tooltips: 1
+}
+
+📦 Importing from: 21st-dev-scraper
+   Found 4 component files
+....
+   ✅ Imported: 4
+   ⚠️  Skipped: 0
+   📊 By type: { misc: 2, sidebars: 1, buttons: 1 }
+
+📦 Importing from: 21st-dev-ui-components
+   Found 81 component files
+.................................................................................
+   ✅ Imported: 81
+   ⚠️  Skipped: 0
+   📊 By type: {
+  accordions: 2,
+  modals: 9,
+  alerts: 1,
+  misc: 22,
+  avatars: 2,
+  badges: 1,
+  buttons: 5,
+  menus: 5,
+  cards: 3,
+  charts: 1,
+  checkboxes: 1,
+  progress: 2,
+  drawers: 2,
+  forms: 1,
+  heroes: 1,
+  'hero-sections': 1,
+  inputs: 1,
+  'spinner-loaders': 2,
+  selects: 2,
+  paginations: 1,
+  popovers: 1,
+  tabs: 2,
+  tables: 2,
+  'radio-groups': 1,
+  sidebars: 1,
+  skeletons: 2,
+  toggles: 3,
+  tags: 1,
+  'text-areas': 1,
+  toasts: 1,
+  tooltips: 1
+}
+
+📦 Importing from: aceternity-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: animate-css
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: animejs-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: ant-design-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: aos-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: apexcharts-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: ariakit-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: atlaskit-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: auto-animate-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: baseweb-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: bike-hire-ui-library
+   Found 96 component files
+................................................................................................
+   ✅ Imported: 96
+   ⚠️  Skipped: 0
+   📊 By type: {
+  misc: 76,
+  'date-pickers': 1,
+  sidebars: 1,
+  cards: 4,
+  carousels: 2,
+  charts: 1,
+  drawers: 1,
+  forms: 4,
+  heroes: 3,
+  modals: 1,
+  'empty-states': 1,
+  'spinner-loaders': 1
+}
+
+📦 Importing from: blueprint-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: carbon-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: chakra-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: chartjs-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: cmdk-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: confetti-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: cult-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: daisyui-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: dndkit-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: elastic-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: embla-carousel
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: evergreen-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: float-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: flowbite-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: flowrift-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: fluent-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: formik-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: framer-motion-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: fullcalendar-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: geist-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: glidejs-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: grommet-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: gsap-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: headless-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: heroicons-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: hover-css
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: hyper-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: keen-slider-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: kitwind-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: konsta-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: kutty-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: locomotive-scroll-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: lofi-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: lottie-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: lucide-icons
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: lukacho-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: magic-ui
+   Found 70 component files
+......................................................................
+   ✅ Imported: 70
+   ⚠️  Skipped: 0
+   📊 By type: {
+  misc: 51,
+  progress: 3,
+  buttons: 7,
+  toggles: 1,
+  avatars: 1,
+  cards: 4,
+  'file-trees': 1,
+  modals: 1,
+  icons: 1
+}
+
+📦 Importing from: mambaui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: mantine-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: meraki-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: motion-one-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: mui-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: nextui-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: nivo-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: notistack-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: park-ui
+   Found 116 component files
+....................................................................................................................
+   ✅ Imported: 116
+   ⚠️  Skipped: 0
+   📊 By type: {
+  accordions: 4,
+  alerts: 2,
+  avatars: 2,
+  badges: 2,
+  buttons: 5,
+  cards: 4,
+  carousels: 2,
+  checkboxes: 2,
+  misc: 33,
+  selects: 4,
+  'date-pickers': 2,
+  modals: 2,
+  drawers: 2,
+  tables: 4,
+  'file-uploads': 2,
+  icons: 2,
+  inputs: 8,
+  links: 2,
+  menus: 2,
+  paginations: 2,
+  popovers: 2,
+  progress: 2,
+  'radio-groups': 4,
+  skeletons: 2,
+  sliders: 2,
+  'spinner-loaders': 2,
+  toggles: 4,
+  tabs: 2,
+  'text-areas': 2,
+  toasts: 2,
+  tooltips: 2,
+  'file-trees': 2
+}
+
+📦 Importing from: particles-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: phosphor-icons
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: polaris-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: preline-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: primer-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: radix-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-beautiful-dnd-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-big-calendar-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-bootstrap-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-calendar-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-datepicker-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-dnd-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-dropzone-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-email-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-hook-form-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-hot-toast
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-select
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-slick-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-spring-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: react-toastify-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: reactstrap-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: reakit-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: rebass-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: recharts-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: restaurant-ui-library
+   Found 200 component files
+........................................................................................................................................................................................................
+   ✅ Imported: 200
+   ⚠️  Skipped: 0
+   📊 By type: {
+  misc: 157,
+  tabs: 2,
+  badges: 2,
+  carousels: 2,
+  cards: 8,
+  buttons: 5,
+  selects: 2,
+  inputs: 2,
+  'text-areas': 2,
+  toggles: 2,
+  'hero-sections': 2,
+  heroes: 8,
+  menus: 2,
+  tooltips: 2,
+  avatars: 2
+}
+
+📦 Importing from: rippleui-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: sailboat-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: semantic-ui-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: shadcn-ui
+   Found 54 component files
+......................................................
+   ✅ Imported: 54
+   ⚠️  Skipped: 0
+   📊 By type: {
+  misc: 10,
+  accordions: 2,
+  modals: 2,
+  alerts: 1,
+  avatars: 1,
+  badges: 1,
+  breadcrumbs: 1,
+  buttons: 1,
+  calendars: 1,
+  cards: 2,
+  carousels: 1,
+  charts: 1,
+  checkboxes: 1,
+  selects: 3,
+  menus: 4,
+  tables: 2,
+  'date-pickers': 1,
+  drawers: 2,
+  forms: 1,
+  inputs: 1,
+  paginations: 1,
+  popovers: 1,
+  progress: 1,
+  'radio-groups': 1,
+  sidebars: 1,
+  skeletons: 1,
+  sliders: 1,
+  toggles: 3,
+  tabs: 1,
+  'text-areas': 1,
+  toasts: 2,
+  tooltips: 1
+}
+
+📦 Importing from: shared-utils
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: siso-core
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: sonner-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: spectrum-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: swiper-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: tailblocks-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: tailgrids-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: tanstack-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: themeui-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: three-fiber-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: tour-guide-ui-library
+   Found 170 component files
+..........................................................................................................................................................................
+   ✅ Imported: 170
+   ⚠️  Skipped: 0
+   📊 By type: {
+  misc: 92,
+  forms: 4,
+  sidebars: 2,
+  tables: 3,
+  modals: 5,
+  selects: 4,
+  buttons: 3,
+  cards: 9,
+  'hero-sections': 5,
+  carousels: 8,
+  skeletons: 2,
+  heroes: 2,
+  accordions: 2,
+  breadcrumbs: 2,
+  alerts: 1,
+  avatars: 1,
+  badges: 1,
+  calendars: 1,
+  charts: 1,
+  checkboxes: 1,
+  menus: 4,
+  drawers: 2,
+  inputs: 1,
+  paginations: 1,
+  popovers: 1,
+  progress: 1,
+  'radio-groups': 1,
+  sliders: 1,
+  toggles: 4,
+  tabs: 1,
+  'text-areas': 1,
+  toasts: 2,
+  tooltips: 1
+}
+
+📦 Importing from: tremor-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: uppy-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: vaul-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: victory-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: visx-library
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: wicked-blocks
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+📦 Importing from: windmill-ui
+   Found 0 component files
+
+   ✅ Imported: 0
+   ⚠️  Skipped: 0
+   📊 By type: {}
+
+============================================================
+📊 TOTAL IMPORT STATS:
+   ✅ Imported: 1117 components
+   ⚠️  Skipped: 0 files
+============================================================
+
+
+✅ Updated all index files
+🔄 Generating catalog...
+🔍 Scanning for metadata files...
+
+Found 791 metadata files:
+
+  ✅ tour-guides/src/features/admin-panel/metadata.json
+  ✅ tour-guides/src/features/analytics/metadata.json
+  ✅ tour-guides/src/features/availability-system/metadata.json
+  ✅ tour-guides/src/features/blog-cms/metadata.json
+  ✅ tour-guides/src/features/booking-system/metadata.json
+  ✅ tour-guides/src/features/media-management/metadata.json
+  ✅ tour-guides/src/features/notifications/metadata.json
+  ✅ tour-guides/src/features/payment-processing/metadata.json
+  ✅ tour-guides/src/features/qr-tickets/metadata.json
+  ✅ tour-guides/src/features/review-system/metadata.json
+  ✅ tour-guides/src/features/user-management/metadata.json
+  ✅ tour-guides/src/features/weather-integration/metadata.json
+  ✅ ui/src/primitives/accordions/21st-dev-official-accordion/metadata.json
+  ✅ ui/src/primitives/accordions/21st-dev-official-collapsible/metadata.json
+  ✅ ui/src/primitives/accordions/21st-dev-ui-components-accordion/metadata.json
+  ✅ ui/src/primitives/accordions/21st-dev-ui-components-collapsible/metadata.json
+  ✅ ui/src/primitives/accordions/park-ui-accordion/metadata.json
+  ✅ ui/src/primitives/accordions/park-ui-collapsible/metadata.json
+  ✅ ui/src/primitives/accordions/shadcn-ui-accordion/metadata.json
+  ✅ ui/src/primitives/accordions/shadcn-ui-collapsible/metadata.json
+  ✅ ui/src/primitives/accordions/tour-guide-ui-library-accordion/metadata.json
+  ✅ ui/src/primitives/accordions/tour-guide-ui-library-collapsible/metadata.json
+  ✅ ui/src/primitives/alerts/21st-dev-official-alert/metadata.json
+  ✅ ui/src/primitives/alerts/21st-dev-official-alerts/metadata.json
+  ✅ ui/src/primitives/alerts/21st-dev-ui-components-alert/metadata.json
+  ✅ ui/src/primitives/alerts/park-ui-alert/metadata.json
+  ✅ ui/src/primitives/alerts/shadcn-ui-alert/metadata.json
+  ✅ ui/src/primitives/alerts/tour-guide-ui-library-alert/metadata.json
+  ✅ ui/src/primitives/avatars/21st-dev-official-avatar/metadata.json
+  ✅ ui/src/primitives/avatars/21st-dev-official-user-avatar/metadata.json
+  ✅ ui/src/primitives/avatars/21st-dev-ui-components-avatar/metadata.json
+  ✅ ui/src/primitives/avatars/21st-dev-ui-components-user-avatar/metadata.json
+  ✅ ui/src/primitives/avatars/magic-ui-avatar-circles/metadata.json
+  ✅ ui/src/primitives/avatars/park-ui-avatar/metadata.json
+  ✅ ui/src/primitives/avatars/restaurant-ui-library-avatar/metadata.json
+  ✅ ui/src/primitives/avatars/shadcn-ui-avatar/metadata.json
+  ✅ ui/src/primitives/avatars/tour-guide-ui-library-avatar/metadata.json
+  ✅ ui/src/primitives/badges/21st-dev-official-badge/metadata.json
+  ✅ ui/src/primitives/badges/21st-dev-ui-components-badge/metadata.json
+  ✅ ui/src/primitives/badges/park-ui-badge/metadata.json
+  ✅ ui/src/primitives/badges/restaurant-ui-library-badge/metadata.json
+  ✅ ui/src/primitives/badges/shadcn-ui-badge/metadata.json
+  ✅ ui/src/primitives/badges/tour-guide-ui-library-badge/metadata.json
+  ✅ ui/src/primitives/breadcrumbs/shadcn-ui-breadcrumb/metadata.json
+  ✅ ui/src/primitives/breadcrumbs/tour-guide-ui-library-admin-breadcrumb/metadata.json
+  ✅ ui/src/primitives/breadcrumbs/tour-guide-ui-library-breadcrumb/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-official-bookmark-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-official-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-official-copy-code-card-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-official-full-screen-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-official-shimmer-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-scraper-rainbow-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-ui-components-bookmark-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-ui-components-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-ui-components-copy-code-card-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-ui-components-full-screen-button/metadata.json
+  ✅ ui/src/primitives/buttons/21st-dev-ui-components-shimmer-button/metadata.json
+  ✅ ui/src/primitives/buttons/magic-ui-animated-subscribe-button/metadata.json
+  ✅ ui/src/primitives/buttons/magic-ui-interactive-hover-button/metadata.json
+  ✅ ui/src/primitives/buttons/magic-ui-pulsating-button/metadata.json
+  ✅ ui/src/primitives/buttons/magic-ui-rainbow-button/metadata.json
+  ✅ ui/src/primitives/buttons/magic-ui-ripple-button/metadata.json
+  ✅ ui/src/primitives/buttons/magic-ui-shimmer-button/metadata.json
+  ✅ ui/src/primitives/buttons/magic-ui-shiny-button/metadata.json
+  ✅ ui/src/primitives/buttons/park-ui-button/metadata.json
+  ✅ ui/src/primitives/buttons/park-ui-icon-button/metadata.json
+  ✅ ui/src/primitives/buttons/park-ui-submit-button/metadata.json
+  ✅ ui/src/primitives/buttons/restaurant-ui-library-button/metadata.json
+  ✅ ui/src/primitives/buttons/restaurant-ui-library-chronicle-button/metadata.json
+  ✅ ui/src/primitives/buttons/restaurant-ui-library-hover-button/metadata.json
+  ✅ ui/src/primitives/buttons/shadcn-ui-button/metadata.json
+  ✅ ui/src/primitives/buttons/tour-guide-ui-library-button/metadata.json
+  ✅ ui/src/primitives/buttons/tour-guide-ui-library-whatsapp-button/metadata.json
+  ✅ ui/src/primitives/calendars/shadcn-ui-calendar/metadata.json
+  ✅ ui/src/primitives/calendars/tour-guide-ui-library-calendar/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-card-image/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-card-video/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-category-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-collection-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-component-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-edit-code-file-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-feature-cards/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-hover-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-leaderboard-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-pricing-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-submission-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-official-template-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-ui-components-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-ui-components-hover-card/metadata.json
+  ✅ ui/src/primitives/cards/21st-dev-ui-components-pricing-card/metadata.json
+  ✅ ui/src/primitives/cards/bike-hire-ui-library-category-cards/metadata.json
+  ✅ ui/src/primitives/cards/bike-hire-ui-library-product-card/metadata.json
+  ✅ ui/src/primitives/cards/bike-hire-ui-library-review-card/metadata.json
+  ✅ ui/src/primitives/cards/bike-hire-ui-library-stat-card/metadata.json
+  ✅ ui/src/primitives/cards/magic-ui-client-tweet-card/metadata.json
+  ✅ ui/src/primitives/cards/magic-ui-magic-card/metadata.json
+  ✅ ui/src/primitives/cards/magic-ui-neon-gradient-card/metadata.json
+  ✅ ui/src/primitives/cards/magic-ui-tweet-card/metadata.json
+  ✅ ui/src/primitives/cards/park-ui-card/metadata.json
+  ✅ ui/src/primitives/cards/park-ui-hover-card/metadata.json
+  ✅ ui/src/primitives/cards/restaurant-ui-library-animated-glow-card/metadata.json
+  ✅ ui/src/primitives/cards/restaurant-ui-library-card/metadata.json
+  ✅ ui/src/primitives/cards/restaurant-ui-library-testimonial-card/metadata.json
+  ✅ ui/src/primitives/cards/restaurant-ui-library-x-gradient-card/metadata.json
+  ✅ ui/src/primitives/cards/shadcn-ui-card/metadata.json
+  ✅ ui/src/primitives/cards/shadcn-ui-hover-card/metadata.json
+  ✅ ui/src/primitives/cards/tour-guide-ui-library-activity-card/metadata.json
+  ✅ ui/src/primitives/cards/tour-guide-ui-library-activity-card-skeleton/metadata.json
+  ✅ ui/src/primitives/cards/tour-guide-ui-library-card/metadata.json
+  ✅ ui/src/primitives/cards/tour-guide-ui-library-category-card-skeleton/metadata.json
+  ✅ ui/src/primitives/cards/tour-guide-ui-library-enhanced-activity-card/metadata.json
+  ✅ ui/src/primitives/cards/tour-guide-ui-library-enhanced-category-card/metadata.json
+  ✅ ui/src/primitives/cards/tour-guide-ui-library-glassmorphism-card/metadata.json
+  ✅ ui/src/primitives/cards/tour-guide-ui-library-hover-card/metadata.json
+  ✅ ui/src/primitives/carousels/bike-hire-ui-library-carousel-controls/metadata.json
+  ✅ ui/src/primitives/carousels/bike-hire-ui-library-product-carousel/metadata.json
+  ✅ ui/src/primitives/carousels/park-ui-carousel/metadata.json
+  ✅ ui/src/primitives/carousels/restaurant-ui-library-carousel/metadata.json
+  ✅ ui/src/primitives/carousels/shadcn-ui-carousel/metadata.json
+  ✅ ui/src/primitives/carousels/tour-guide-ui-library-carousel/metadata.json
+  ✅ ui/src/primitives/carousels/tour-guide-ui-library-hero-carousel/metadata.json
+  ✅ ui/src/primitives/carousels/tour-guide-ui-library-hero-video-carousel/metadata.json
+  ✅ ui/src/primitives/carousels/tour-guide-ui-library-video-carousel/metadata.json
+  ✅ ui/src/primitives/carousels/tour-guide-ui-library-video-hero-carousel/metadata.json
+  ✅ ui/src/primitives/charts/21st-dev-official-chart/metadata.json
+  ✅ ui/src/primitives/charts/21st-dev-official-creator-stats-chart/metadata.json
+  ✅ ui/src/primitives/charts/21st-dev-official-opengraph-image/metadata.json
+  ✅ ui/src/primitives/charts/21st-dev-ui-components-chart/metadata.json
+  ✅ ui/src/primitives/charts/bike-hire-ui-library-reservations-chart/metadata.json
+  ✅ ui/src/primitives/charts/shadcn-ui-chart/metadata.json
+  ✅ ui/src/primitives/charts/tour-guide-ui-library-chart/metadata.json
+  ✅ ui/src/primitives/checkboxes/21st-dev-official-checkbox/metadata.json
+  ✅ ui/src/primitives/checkboxes/21st-dev-ui-components-checkbox/metadata.json
+  ✅ ui/src/primitives/checkboxes/park-ui-checkbox/metadata.json
+  ✅ ui/src/primitives/checkboxes/shadcn-ui-checkbox/metadata.json
+  ✅ ui/src/primitives/checkboxes/tour-guide-ui-library-checkbox/metadata.json
+  ✅ ui/src/primitives/date-pickers/bike-hire-ui-library-date-picker-field/metadata.json
+  ✅ ui/src/primitives/date-pickers/park-ui-date-picker/metadata.json
+  ✅ ui/src/primitives/date-pickers/shadcn-ui-date-picker/metadata.json
+  ✅ ui/src/primitives/drawers/21st-dev-official-drawer/metadata.json
+  ✅ ui/src/primitives/drawers/21st-dev-official-sheet/metadata.json
+  ✅ ui/src/primitives/drawers/21st-dev-ui-components-drawer/metadata.json
+  ✅ ui/src/primitives/drawers/21st-dev-ui-components-sheet/metadata.json
+  ✅ ui/src/primitives/drawers/bike-hire-ui-library-filter-drawer/metadata.json
+  ✅ ui/src/primitives/drawers/park-ui-drawer/metadata.json
+  ✅ ui/src/primitives/drawers/shadcn-ui-drawer/metadata.json
+  ✅ ui/src/primitives/drawers/shadcn-ui-sheet/metadata.json
+  ✅ ui/src/primitives/drawers/tour-guide-ui-library-drawer/metadata.json
+  ✅ ui/src/primitives/drawers/tour-guide-ui-library-sheet/metadata.json
+  ✅ ui/src/primitives/empty-states/bike-hire-ui-library-empty-state/metadata.json
+  ✅ ui/src/primitives/file-trees/21st-dev-official-file-tree/metadata.json
+  ✅ ui/src/primitives/file-trees/magic-ui-file-tree/metadata.json
+  ✅ ui/src/primitives/file-trees/park-ui-tree-view/metadata.json
+  ✅ ui/src/primitives/file-uploads/park-ui-file-upload/metadata.json
+  ✅ ui/src/primitives/forms/21st-dev-official-component-details-form/metadata.json
+  ✅ ui/src/primitives/forms/21st-dev-official-component-form/metadata.json
+  ✅ ui/src/primitives/forms/21st-dev-official-demo-form/metadata.json
+  ✅ ui/src/primitives/forms/21st-dev-official-form/metadata.json
+  ✅ ui/src/primitives/forms/21st-dev-official-import-form/metadata.json
+  ✅ ui/src/primitives/forms/21st-dev-official-prompt-rule-form/metadata.json
+  ✅ ui/src/primitives/forms/21st-dev-official-publish-template-form/metadata.json
+  ✅ ui/src/primitives/forms/21st-dev-official-template-details-form/metadata.json
+  ✅ ui/src/primitives/forms/21st-dev-ui-components-form/metadata.json
+  ✅ ui/src/primitives/forms/bike-hire-ui-library-auth-tabbed-form/metadata.json
+  ✅ ui/src/primitives/forms/bike-hire-ui-library-contact-form/metadata.json
+  ✅ ui/src/primitives/forms/bike-hire-ui-library-review-form/metadata.json
+  ✅ ui/src/primitives/forms/bike-hire-ui-library-user-info-form/metadata.json
+  ✅ ui/src/primitives/forms/shadcn-ui-form/metadata.json
+  ✅ ui/src/primitives/forms/tour-guide-ui-library-activity-create-form/metadata.json
+  ✅ ui/src/primitives/forms/tour-guide-ui-library-activity-edit-form/metadata.json
+  ✅ ui/src/primitives/forms/tour-guide-ui-library-activity-form-modal/metadata.json
+  ✅ ui/src/primitives/forms/tour-guide-ui-library-form/metadata.json
+  ✅ ui/src/primitives/hero-sections/21st-dev-official-hero-section/metadata.json
+  ✅ ui/src/primitives/hero-sections/21st-dev-ui-components-hero-section/metadata.json
+  ✅ ui/src/primitives/hero-sections/restaurant-ui-library-diced-hero-section/metadata.json
+  ✅ ui/src/primitives/hero-sections/tour-guide-ui-library-enhanced-hero-section/metadata.json
+  ✅ ui/src/primitives/hero-sections/tour-guide-ui-library-hero-section/metadata.json
+  ✅ ui/src/primitives/hero-sections/tour-guide-ui-library-hero-section-server/metadata.json
+  ✅ ui/src/primitives/heroes/21st-dev-official-hero/metadata.json
+  ✅ ui/src/primitives/heroes/21st-dev-official-hero-pill/metadata.json
+  ✅ ui/src/primitives/heroes/21st-dev-ui-components-hero-pill/metadata.json
+  ✅ ui/src/primitives/heroes/bike-hire-ui-library-hero/metadata.json
+  ✅ ui/src/primitives/heroes/bike-hire-ui-library-page-hero/metadata.json
+  ✅ ui/src/primitives/heroes/bike-hire-ui-library-search-hero/metadata.json
+  ✅ ui/src/primitives/heroes/restaurant-ui-library-hero/metadata.json
+  ✅ ui/src/primitives/heroes/restaurant-ui-library-hero-highlight/metadata.json
+  ✅ ui/src/primitives/heroes/restaurant-ui-library-hero-pill/metadata.json
+  ✅ ui/src/primitives/heroes/restaurant-ui-library-shuffle-hero/metadata.json
+  ✅ ui/src/primitives/heroes/tour-guide-ui-library-hero/metadata.json
+  ✅ ui/src/primitives/heroes/tour-guide-ui-library-hero-variants/metadata.json
+  ✅ ui/src/primitives/icons/21st-dev-official-logout-icon/metadata.json
+  ✅ ui/src/primitives/icons/21st-dev-official-upvote-icon/metadata.json
+  ✅ ui/src/primitives/icons/magic-ui-icon-cloud/metadata.json
+  ✅ ui/src/primitives/icons/park-ui-icon/metadata.json
+  ✅ ui/src/primitives/inputs/21st-dev-official-input/metadata.json
+  ✅ ui/src/primitives/inputs/21st-dev-official-url-input/metadata.json
+  ✅ ui/src/primitives/inputs/21st-dev-ui-components-input/metadata.json
+  ✅ ui/src/primitives/inputs/park-ui-input/metadata.json
+  ✅ ui/src/primitives/inputs/park-ui-number-input/metadata.json
+  ✅ ui/src/primitives/inputs/park-ui-pin-input/metadata.json
+  ✅ ui/src/primitives/inputs/park-ui-tags-input/metadata.json
+  ✅ ui/src/primitives/inputs/restaurant-ui-library-input/metadata.json
+  ✅ ui/src/primitives/inputs/shadcn-ui-input/metadata.json
+  ✅ ui/src/primitives/inputs/tour-guide-ui-library-input/metadata.json
+  ✅ ui/src/primitives/links/21st-dev-official-db-links/metadata.json
+  ✅ ui/src/primitives/links/park-ui-link/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-official-brand-assets-menu/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-official-command-menu/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-official-context-menu/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-official-dropdown-menu/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-official-navigation-menu/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-ui-components-brand-assets-menu/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-ui-components-command-menu/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-ui-components-context-menu/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-ui-components-dropdown-menu/metadata.json
+  ✅ ui/src/primitives/menus/21st-dev-ui-components-navigation-menu/metadata.json
+  ✅ ui/src/primitives/menus/park-ui-menu/metadata.json
+  ✅ ui/src/primitives/menus/restaurant-ui-library-modern-mobile-menu/metadata.json
+  ✅ ui/src/primitives/menus/shadcn-ui-context-menu/metadata.json
+  ✅ ui/src/primitives/menus/shadcn-ui-dropdown-menu/metadata.json
+  ✅ ui/src/primitives/menus/shadcn-ui-menubar/metadata.json
+  ✅ ui/src/primitives/menus/shadcn-ui-navigation-menu/metadata.json
+  ✅ ui/src/primitives/menus/tour-guide-ui-library-context-menu/metadata.json
+  ✅ ui/src/primitives/menus/tour-guide-ui-library-dropdown-menu/metadata.json
+  ✅ ui/src/primitives/menus/tour-guide-ui-library-menubar/metadata.json
+  ✅ ui/src/primitives/menus/tour-guide-ui-library-navigation-menu/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-admin-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-api-docs/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-api-key-manager/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-api-key-section/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-aurora-background/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-banner/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-billing-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-bolt-banner/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-bundle-item/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-bundles-layout/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-category-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-category-preview-image/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-category-video-preview/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-clap/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-code/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-code-editor/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-collection-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-collections-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-command/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-component-animation/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-component-preview/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-container/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-create-component-step/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-cursor-dark/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-cursor-light/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-editor/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-editor-code-panel/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-editor-pane/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-editor-state/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-error-page/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-faq/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-features/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-file-explorer/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-filter-chips/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-first-stap-layout/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-footer/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-founder-photos/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-github-stars-number/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-header.client/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-help/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-home-layout/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-how-it-works/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-ide-instructions/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-import-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-index/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-info-section/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-install-ide-step/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-invite-template/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-invoices-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-items-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-label/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-layout/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-leaderboard-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-legacy-flow-preview-renderer/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-link-preview/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-logo/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-lovable/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-magic-banner/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-magic-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-magic-patterns/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-main-layout/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-main-page-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-maintenance-page/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-mockup/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-navigation-with-magic/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-new-flow-preview-render/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-non-admin-placeholder/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-onboarding-layout/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-onboarding-server-wrapper/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-page/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-page.client/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-pay-wall/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-preview/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-preview-pane/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-preview-renderer/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-pricing/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-pricing-section/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-pro-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-prompt-rule-display/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-prompt-rules-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-prompts/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-providers/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-publish-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-publish-layout/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-requirements-panel/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-resizable/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-sandbox-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-sandpack/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-sandpack-initial-content/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-scroll-area/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-separator/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-session-recorder/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-settings-mobile-nav/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-shadcn-file/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-sitebrew/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-sonner/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-studio-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-studio-layout/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-studio-navigation/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-submission-status-filter/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-submission-status-template/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-supported-editors/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-svgl/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-template-video-preview/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-templates-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-templates-list-seo/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-terminal/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-text-morph/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-text-shimmer/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-troubleshooting/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-troubleshooting-step/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-upgrade-pro-step/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-upload/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-use-debounce/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-use-hooks/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-use-mobile/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-user-bunldes-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-user-items-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-user-page-header/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-user-picker/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-vscode/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-welcome-onboarding/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-welcome-step/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-windsurf-teal-logo/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-official-workslow/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-scraper-aurora-background/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-scraper-splite/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-aurora-background/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-banner/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-code/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-command/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-container/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-error-page/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-footer/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-github-stars-number/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-header.client/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-items-list/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-label/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-link-preview/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-logo/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-maintenance-page/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-mockup/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-pricing-section/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-resizable/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-scroll-area/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-separator/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-sonner/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-text-morph/metadata.json
+  ✅ ui/src/primitives/misc/21st-dev-ui-components-text-shimmer/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-activity-feed/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-admin-layout/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-auth-context/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-call-to-action/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-contact-info-grid/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-dashboard-layout/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-feature-grid/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-featured-products/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-footer/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-image-with-fallback/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-index/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-my-reviews/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-nav-bar/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-popular-products/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-process-steps/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-product-availability-manager/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-product-detail-layout/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-product-filters/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-product-grid/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-protected-route/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-recently-viewed/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-reservation-summary/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-review-stars/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-reviews-list/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-reviews-section/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-role-based-route/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-specs-grid/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-stats-grid/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-upcoming-reservations/metadata.json
+  ✅ ui/src/primitives/misc/bike-hire-ui-library-use-mobile/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-android/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-animated-beam/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-animated-gradient-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-animated-grid-pattern/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-animated-list/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-animated-shiny-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-aurora-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-bento-grid/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-blur-fade/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-border-beam/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-code-comparison/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-comic-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-confetti/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-cool-mode/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-dock/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-dot-pattern/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-dotted-map/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-flickering-grid/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-globe/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-grid-pattern/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-highlighter/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-hyper-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-interactive-grid-pattern/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-iphone/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-lens/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-light-rays/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-line-shadow-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-marquee/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-meteors/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-morphing-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-number-ticker/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-orbiting-circles/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-particles/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-pixel-image/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-pointer/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-retro-grid/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-ripple/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-safari/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-scroll-based-velocity/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-shine-border/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-smooth-cursor/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-sparkles-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-spinning-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-striped-pattern/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-terminal/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-text-animate/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-text-reveal/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-typing-animation/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-video-text/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-warp-background/metadata.json
+  ✅ ui/src/primitives/misc/magic-ui-word-rotate/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-clipboard/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-clipobard/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-code/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-color-picker/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-create-style-context/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-field/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-fieldset/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-form-label/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-heading/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-kbd/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-pre/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-prose/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-qr-code/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-rating-group/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-segment-group/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-signature-pad/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-splitter/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-stepper/metadata.json
+  ✅ ui/src/primitives/misc/park-ui-text/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-about-us-section/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-animated-glowing-search-bar/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-animated-gradient-background/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-animated-shiny-text/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-animated-testimonials/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-announcement/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-background-beams/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-background-beams-with-collision/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-background-gradient-animation/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-banner/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-call-to-action/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-call-to-action-1/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-demo/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-dotted-surface/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-entropy/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-etheral-shadow/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-footer-section/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-gallery4/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-gradient-background/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-interactive-bento-gallery/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-label/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-lamp/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-limelight-nav/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-magnetic-dock/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-moving-border/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-particles/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-retro-testimonial/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-shine-border/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-shuffle-grid/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-spiral-animation/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-sticky-scroll/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-testimonials-columns-1/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-testimonials-with-marquee/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-tiles/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-transition-panel/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-tubelight-navbar/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-warp-background/metadata.json
+  ✅ ui/src/primitives/misc/restaurant-ui-library-wave-path/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-app/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-aspect-ratio/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-command/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-input-otp/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-label/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-main/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-resizable/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-scroll-area/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-separator/metadata.json
+  ✅ ui/src/primitives/misc/shadcn-ui-sonner/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-activities-header/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-activities-management/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-activities-map/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-activity-description/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-activity-image-gallery/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-activity-location-map/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-admin-layout/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-advanced-scroll-effects/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-analytics-dashboard/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-analytics-header/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-animated-gradient-text/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-animated-section/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-aspect-ratio/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-blog-header/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-blog-management/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-booking-widget/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-bookings-header/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-bookings-management/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-business-snapshot/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-command/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-csv-export/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-dashboard-overview/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-dynamic-framer-motion/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-dynamic-leaflet-map/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-enhanced-activities-management/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-enhanced-activities-map-section/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-enhanced-analytics/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-enhanced-categories-section/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-enhanced-landing-sections/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-enhanced-leaflet-map/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-enhanced-quick-stats/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-features/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-financial-dashboard/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-footer/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-google-map/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-header/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-header-simple/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-header-variants/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-input-otp/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-label/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-leaflet-map/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-lightweight-animations/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-magnetic-elements/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-media-gallery/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-media-header/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-media-import/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-media-management/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-media-organization/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-media-upload/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-navigation-status/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-not-found/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-operational-command-center/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-optimized-image/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-optimized-video/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-payments-header/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-payments-management/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-posthog-pageview/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-posthog-provider/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-posthog-user-identity/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-posthog-user-identity-clerk/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-preferred-footer/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-providers/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-quick-actions/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-resizable/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-reviews-section/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-reviews-section-enhanced/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-root-layout/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-scroll-area/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-separator/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-settings-header/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-settings-management/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-similar-activities/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-sonner/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-tailwind-indicator/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-universal-search/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-use-copy-to-clipboard/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-use-currency-conversion/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-use-mobile/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-user-profile-manager/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-users-header/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-users-management/metadata.json
+  ✅ ui/src/primitives/misc/tour-guide-ui-library-variant-context/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-add-registry-modal/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-add-to-contest-modal/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-alert-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-checkout-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-code-editor-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-component-publish-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-confirmation-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-copy-prompt-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-delete-account-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-delete-component-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-delete-demo-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-edit-component-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-edit-demo-modal/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-edit-profile-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-feedback-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-hero-video-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-manage-submission-modal/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-newsletter-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-partner-program-modal/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-plans-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-preview-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-success-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-template-preview-modal/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-terms-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-official-upgrade-confirmation-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-ui-components-alert-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-ui-components-checkout-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-ui-components-code-editor-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-ui-components-copy-prompt-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-ui-components-delete-account-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-ui-components-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-ui-components-edit-component-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-ui-components-hero-video-dialog/metadata.json
+  ✅ ui/src/primitives/modals/21st-dev-ui-components-newsletter-dialog/metadata.json
+  ✅ ui/src/primitives/modals/bike-hire-ui-library-booking-modal/metadata.json
+  ✅ ui/src/primitives/modals/magic-ui-hero-video-dialog/metadata.json
+  ✅ ui/src/primitives/modals/park-ui-dialog/metadata.json
+  ✅ ui/src/primitives/modals/shadcn-ui-alert-dialog/metadata.json
+  ✅ ui/src/primitives/modals/shadcn-ui-dialog/metadata.json
+  ✅ ui/src/primitives/modals/tour-guide-ui-library-alert-dialog/metadata.json
+  ✅ ui/src/primitives/modals/tour-guide-ui-library-confirm-dialog/metadata.json
+  ✅ ui/src/primitives/modals/tour-guide-ui-library-dialog/metadata.json
+  ✅ ui/src/primitives/modals/tour-guide-ui-library-hero-video-dialog/metadata.json
+  ✅ ui/src/primitives/modals/tour-guide-ui-library-review-submission-modal/metadata.json
+  ✅ ui/src/primitives/paginations/21st-dev-official-pagination/metadata.json
+  ✅ ui/src/primitives/paginations/21st-dev-official-pagination-controls/metadata.json
+  ✅ ui/src/primitives/paginations/21st-dev-ui-components-pagination/metadata.json
+  ✅ ui/src/primitives/paginations/park-ui-pagination/metadata.json
+  ✅ ui/src/primitives/paginations/shadcn-ui-pagination/metadata.json
+  ✅ ui/src/primitives/paginations/tour-guide-ui-library-pagination/metadata.json
+  ✅ ui/src/primitives/popovers/21st-dev-official-popover/metadata.json
+  ✅ ui/src/primitives/popovers/21st-dev-ui-components-popover/metadata.json
+  ✅ ui/src/primitives/popovers/park-ui-popover/metadata.json
+  ✅ ui/src/primitives/popovers/shadcn-ui-popover/metadata.json
+  ✅ ui/src/primitives/popovers/tour-guide-ui-library-popover/metadata.json
+  ✅ ui/src/primitives/progress/21st-dev-official-circle-progress/metadata.json
+  ✅ ui/src/primitives/progress/21st-dev-official-progress/metadata.json
+  ✅ ui/src/primitives/progress/21st-dev-ui-components-circle-progress/metadata.json
+  ✅ ui/src/primitives/progress/21st-dev-ui-components-progress/metadata.json
+  ✅ ui/src/primitives/progress/magic-ui-animated-circular-progress-bar/metadata.json
+  ✅ ui/src/primitives/progress/magic-ui-progressive-blur/metadata.json
+  ✅ ui/src/primitives/progress/magic-ui-scroll-progress/metadata.json
+  ✅ ui/src/primitives/progress/park-ui-progress/metadata.json
+  ✅ ui/src/primitives/progress/shadcn-ui-progress/metadata.json
+  ✅ ui/src/primitives/progress/tour-guide-ui-library-progress/metadata.json
+  ✅ ui/src/primitives/radio-groups/21st-dev-official-radio-group/metadata.json
+  ✅ ui/src/primitives/radio-groups/21st-dev-ui-components-radio-group/metadata.json
+  ✅ ui/src/primitives/radio-groups/park-ui-radio-button-group/metadata.json
+  ✅ ui/src/primitives/radio-groups/park-ui-radio-group/metadata.json
+  ✅ ui/src/primitives/radio-groups/shadcn-ui-radio-group/metadata.json
+  ✅ ui/src/primitives/radio-groups/tour-guide-ui-library-radio-group/metadata.json
+  ✅ ui/src/primitives/selects/21st-dev-official-multiselect/metadata.json
+  ✅ ui/src/primitives/selects/21st-dev-official-prompt-rule-selector/metadata.json
+  ✅ ui/src/primitives/selects/21st-dev-official-select/metadata.json
+  ✅ ui/src/primitives/selects/21st-dev-official-select-ide-step/metadata.json
+  ✅ ui/src/primitives/selects/21st-dev-official-version-selector-dialog/metadata.json
+  ✅ ui/src/primitives/selects/21st-dev-ui-components-multiselect/metadata.json
+  ✅ ui/src/primitives/selects/21st-dev-ui-components-select/metadata.json
+  ✅ ui/src/primitives/selects/park-ui-combobox/metadata.json
+  ✅ ui/src/primitives/selects/park-ui-select/metadata.json
+  ✅ ui/src/primitives/selects/restaurant-ui-library-select/metadata.json
+  ✅ ui/src/primitives/selects/shadcn-ui-combobox/metadata.json
+  ✅ ui/src/primitives/selects/shadcn-ui-multi-select/metadata.json
+  ✅ ui/src/primitives/selects/shadcn-ui-select/metadata.json
+  ✅ ui/src/primitives/selects/tour-guide-ui-library-currency-selector/metadata.json
+  ✅ ui/src/primitives/selects/tour-guide-ui-library-select/metadata.json
+  ✅ ui/src/primitives/selects/tour-guide-ui-library-variant-selector/metadata.json
+  ✅ ui/src/primitives/sidebars/21st-dev-official-settings-sidebar/metadata.json
+  ✅ ui/src/primitives/sidebars/21st-dev-official-sidebar/metadata.json
+  ✅ ui/src/primitives/sidebars/21st-dev-official-sidebar-layout/metadata.json
+  ✅ ui/src/primitives/sidebars/21st-dev-official-studio-sidebar/metadata.json
+  ✅ ui/src/primitives/sidebars/21st-dev-scraper-sidebar/metadata.json
+  ✅ ui/src/primitives/sidebars/21st-dev-ui-components-sidebar/metadata.json
+  ✅ ui/src/primitives/sidebars/bike-hire-ui-library-pricing-sidebar/metadata.json
+  ✅ ui/src/primitives/sidebars/shadcn-ui-sidebar/metadata.json
+  ✅ ui/src/primitives/sidebars/tour-guide-ui-library-admin-sidebar/metadata.json
+  ✅ ui/src/primitives/sidebars/tour-guide-ui-library-sidebar/metadata.json
+  ✅ ui/src/primitives/sign-ins/21st-dev-official-design-engineer-card/metadata.json
+  ✅ ui/src/primitives/sign-ins/21st-dev-official-design-engineers-list/metadata.json
+  ✅ ui/src/primitives/sign-ins/21st-dev-official-login-form/metadata.json
+  ✅ ui/src/primitives/skeletons/21st-dev-official-skeleton/metadata.json
+  ✅ ui/src/primitives/skeletons/21st-dev-official-skeletons/metadata.json
+  ✅ ui/src/primitives/skeletons/21st-dev-ui-components-skeleton/metadata.json
+  ✅ ui/src/primitives/skeletons/21st-dev-ui-components-skeletons/metadata.json
+  ✅ ui/src/primitives/skeletons/park-ui-skeleton/metadata.json
+  ✅ ui/src/primitives/skeletons/shadcn-ui-skeleton/metadata.json
+  ✅ ui/src/primitives/skeletons/tour-guide-ui-library-map-location-skeleton/metadata.json
+  ✅ ui/src/primitives/skeletons/tour-guide-ui-library-skeleton/metadata.json
+  ✅ ui/src/primitives/sliders/21st-dev-official-horizontal-slider/metadata.json
+  ✅ ui/src/primitives/sliders/park-ui-slider/metadata.json
+  ✅ ui/src/primitives/sliders/shadcn-ui-slider/metadata.json
+  ✅ ui/src/primitives/sliders/tour-guide-ui-library-slider/metadata.json
+  ✅ ui/src/primitives/spinner-loaders/21st-dev-official-loading/metadata.json
+  ✅ ui/src/primitives/spinner-loaders/21st-dev-official-loading-dialog/metadata.json
+  ✅ ui/src/primitives/spinner-loaders/21st-dev-official-loading-spinner/metadata.json
+  ✅ ui/src/primitives/spinner-loaders/21st-dev-official-spinner/metadata.json
+  ✅ ui/src/primitives/spinner-loaders/21st-dev-ui-components-loading-dialog/metadata.json
+  ✅ ui/src/primitives/spinner-loaders/21st-dev-ui-components-loading-spinner/metadata.json
+  ✅ ui/src/primitives/spinner-loaders/bike-hire-ui-library-skeleton-loader/metadata.json
+  ✅ ui/src/primitives/spinner-loaders/park-ui-spinner/metadata.json
+  ✅ ui/src/primitives/tables/21st-dev-official-components-table/metadata.json
+  ✅ ui/src/primitives/tables/21st-dev-official-payout-history-table/metadata.json
+  ✅ ui/src/primitives/tables/21st-dev-official-plan-comparison-table/metadata.json
+  ✅ ui/src/primitives/tables/21st-dev-official-pricing-table/metadata.json
+  ✅ ui/src/primitives/tables/21st-dev-official-table/metadata.json
+  ✅ ui/src/primitives/tables/21st-dev-ui-components-pricing-table/metadata.json
+  ✅ ui/src/primitives/tables/21st-dev-ui-components-table/metadata.json
+  ✅ ui/src/primitives/tables/park-ui-editable/metadata.json
+  ✅ ui/src/primitives/tables/park-ui-table/metadata.json
+  ✅ ui/src/primitives/tables/shadcn-ui-data-table/metadata.json
+  ✅ ui/src/primitives/tables/shadcn-ui-table/metadata.json
+  ✅ ui/src/primitives/tables/tour-guide-ui-library-management-tables/metadata.json
+  ✅ ui/src/primitives/tables/tour-guide-ui-library-sortable-table/metadata.json
+  ✅ ui/src/primitives/tables/tour-guide-ui-library-table/metadata.json
+  ✅ ui/src/primitives/tabs/21st-dev-official-get-started-tabs/metadata.json
+  ✅ ui/src/primitives/tabs/21st-dev-official-preview-with-tabs/metadata.json
+  ✅ ui/src/primitives/tabs/21st-dev-official-pricing-tab/metadata.json
+  ✅ ui/src/primitives/tabs/21st-dev-official-tabs/metadata.json
+  ✅ ui/src/primitives/tabs/21st-dev-ui-components-pricing-tab/metadata.json
+  ✅ ui/src/primitives/tabs/21st-dev-ui-components-tabs/metadata.json
+  ✅ ui/src/primitives/tabs/park-ui-tabs/metadata.json
+  ✅ ui/src/primitives/tabs/restaurant-ui-library-expandable-tabs/metadata.json
+  ✅ ui/src/primitives/tabs/shadcn-ui-tabs/metadata.json
+  ✅ ui/src/primitives/tabs/tour-guide-ui-library-tabs/metadata.json
+  ✅ ui/src/primitives/tags/21st-dev-official-tag/metadata.json
+  ✅ ui/src/primitives/tags/21st-dev-official-tag-page-header/metadata.json
+  ✅ ui/src/primitives/tags/21st-dev-ui-components-tag/metadata.json
+  ✅ ui/src/primitives/text-areas/21st-dev-official-textarea/metadata.json
+  ✅ ui/src/primitives/text-areas/21st-dev-ui-components-textarea/metadata.json
+  ✅ ui/src/primitives/text-areas/park-ui-textarea/metadata.json
+  ✅ ui/src/primitives/text-areas/restaurant-ui-library-textarea/metadata.json
+  ✅ ui/src/primitives/text-areas/shadcn-ui-textarea/metadata.json
+  ✅ ui/src/primitives/text-areas/tour-guide-ui-library-textarea/metadata.json
+  ✅ ui/src/primitives/toasts/21st-dev-official-toast/metadata.json
+  ✅ ui/src/primitives/toasts/21st-dev-ui-components-toast/metadata.json
+  ✅ ui/src/primitives/toasts/park-ui-toast/metadata.json
+  ✅ ui/src/primitives/toasts/shadcn-ui-toast/metadata.json
+  ✅ ui/src/primitives/toasts/shadcn-ui-toaster/metadata.json
+  ✅ ui/src/primitives/toasts/tour-guide-ui-library-toast/metadata.json
+  ✅ ui/src/primitives/toasts/tour-guide-ui-library-toaster/metadata.json
+  ✅ ui/src/primitives/toggles/21st-dev-official-switch/metadata.json
+  ✅ ui/src/primitives/toggles/21st-dev-official-theme-toggle/metadata.json
+  ✅ ui/src/primitives/toggles/21st-dev-official-toggle/metadata.json
+  ✅ ui/src/primitives/toggles/21st-dev-official-visibility-toggle/metadata.json
+  ✅ ui/src/primitives/toggles/21st-dev-ui-components-switch/metadata.json
+  ✅ ui/src/primitives/toggles/21st-dev-ui-components-theme-toggle/metadata.json
+  ✅ ui/src/primitives/toggles/21st-dev-ui-components-toggle/metadata.json
+  ✅ ui/src/primitives/toggles/magic-ui-animated-theme-toggler/metadata.json
+  ✅ ui/src/primitives/toggles/park-ui-switch/metadata.json
+  ✅ ui/src/primitives/toggles/park-ui-toggle-group/metadata.json
+  ✅ ui/src/primitives/toggles/restaurant-ui-library-switch/metadata.json
+  ✅ ui/src/primitives/toggles/shadcn-ui-switch/metadata.json
+  ✅ ui/src/primitives/toggles/shadcn-ui-toggle/metadata.json
+  ✅ ui/src/primitives/toggles/shadcn-ui-toggle-group/metadata.json
+  ✅ ui/src/primitives/toggles/tour-guide-ui-library-switch/metadata.json
+  ✅ ui/src/primitives/toggles/tour-guide-ui-library-theme-switcher/metadata.json
+  ✅ ui/src/primitives/toggles/tour-guide-ui-library-toggle/metadata.json
+  ✅ ui/src/primitives/toggles/tour-guide-ui-library-toggle-group/metadata.json
+  ✅ ui/src/primitives/tooltips/21st-dev-official-tooltip/metadata.json
+  ✅ ui/src/primitives/tooltips/21st-dev-ui-components-tooltip/metadata.json
+  ✅ ui/src/primitives/tooltips/park-ui-tooltip/metadata.json
+  ✅ ui/src/primitives/tooltips/restaurant-ui-library-tooltip/metadata.json
+  ✅ ui/src/primitives/tooltips/shadcn-ui-tooltip/metadata.json
+  ✅ ui/src/primitives/tooltips/tour-guide-ui-library-tooltip/metadata.json
+
+📊 Catalog Generated:
+
+  Component count: 779
+  Feature count: 12
+  UI component types: 42
+  Domains: 1
+
+  Search indices:
+    - by_type: 42 types
+    - by_visual_style: 7 styles
+    - by_use_case: 7 use cases
+    - by_tag: 577 tags
+
+✅ Catalog written to: /Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/siso-app-factory/docs/ai-catalog.json
+

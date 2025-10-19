@@ -13,28 +13,59 @@ const path = require('path')
 const SOURCE_ROOT = path.join(__dirname, '../../SISO-UI-Library')
 const DEST_ROOT = path.join(__dirname, '../packages/ui/src/primitives')
 
-// Component type detection patterns
+// Component type detection patterns - Match all 39 categories from restaurant-ui-library/docs/imports
 const COMPONENT_TYPES = {
-  button: /button/i,
-  card: /card/i,
-  input: /input|textfield|text-field/i,
-  accordion: /accordion|collapse/i,
-  modal: /modal|dialog/i,
-  select: /select|dropdown|combobox/i,
-  checkbox: /checkbox|check/i,
-  radio: /radio/i,
-  toggle: /toggle|switch/i,
-  slider: /slider|range/i,
-  table: /table|datagrid|data-grid/i,
-  tabs: /tabs|tab/i,
-  badge: /badge|tag/i,
-  avatar: /avatar/i,
-  alert: /alert|notification|toast/i,
-  calendar: /calendar|datepicker|date-picker/i,
-  chart: /chart|graph/i,
-  form: /form/i,
-  menu: /menu|nav/i,
-  tooltip: /tooltip|popover/i
+  // Must be checked in order (most specific first)
+  'ai-chats': /ai.*chat|chat.*ai|conversation|messaging/i,
+  'sign-ins': /sign.*in|login.*form|auth.*login/i,
+  'sign-ups': /sign.*up|register.*form|auth.*register/i,
+  'file-uploads': /file.*upload|upload.*file|file.*input/i,
+  'file-trees': /file.*tree|tree.*view|tree.*explorer/i,
+  'date-pickers': /date.*picker|datepicker|time.*picker/i,
+  'empty-states': /empty.*state|no.*data|placeholder.*state/i,
+  'radio-groups': /radio.*group|radio/i,
+  'spinner-loaders': /spinner|loader|loading(?!.*state)|spinner.*loader/i,
+  'text-areas': /textarea|text.*area/i,
+
+  // Standard categories
+  accordions: /accordion|collapse|collapsible/i,
+  alerts: /alert(?!.*dialog)/i,
+  avatars: /avatar/i,
+  badges: /badge(?!.*avatar)/i,
+  buttons: /button/i,
+  calendars: /calendar(?!.*picker)/i,
+  cards: /card/i,
+  carousels: /carousel|swiper/i,
+  checkboxes: /checkbox/i,
+  dropdowns: /dropdown(?!.*menu)|listbox/i,
+  forms: /form(?!.*field|.*label)/i,
+  icons: /icon(?!.*button)/i,
+  inputs: /input(?!.*otp)|textfield|text-field/i,
+  links: /link(?!.*preview)/i,
+  menus: /menu|menubar|navigation.*menu/i,
+  notifications: /notification(?!s)/i,
+  numbers: /number.*display|stat.*card|metric|counter/i,
+  paginations: /pagination/i,
+  popovers: /popover/i,
+  selects: /select|combobox/i,
+  sidebars: /sidebar|side.*nav/i,
+  sliders: /slider|range(?!.*picker)/i,
+  tables: /table|datagrid|data.*grid|data.*table/i,
+  tabs: /tabs|tab(?!le)/i,
+  tags: /tag(?!.*input|.*group)/i,
+  toasts: /toast|toaster/i,
+  toggles: /toggle|switch/i,
+  tooltips: /tooltip/i,
+
+  // Additional
+  modals: /modal|dialog|alert.*dialog/i,
+  progress: /progress|circular.*progress/i,
+  skeletons: /skeleton/i,
+  drawers: /drawer|sheet/i,
+  breadcrumbs: /breadcrumb/i,
+  charts: /chart|graph|visualization/i,
+  heroes: /hero(?!.*section)/i,
+  'hero-sections': /hero.*section/i
 }
 
 // Visual style detection from library names
@@ -57,13 +88,19 @@ const LIBRARY_STYLES = {
 function detectComponentType(filename) {
   const lower = filename.toLowerCase()
 
+  // Check patterns in order (most specific first)
   for (const [type, pattern] of Object.entries(COMPONENT_TYPES)) {
     if (pattern.test(lower)) {
-      return type + 's' // Pluralize (button → buttons)
+      // Already plural categories
+      if (type.endsWith('s') || type.includes('-')) {
+        return type
+      }
+      // Singularize to match folder names
+      return type + 's'
     }
   }
 
-  return 'misc' // Miscellaneous if can't detect
+  return 'misc' // Fallback for truly misc components
 }
 
 /**
