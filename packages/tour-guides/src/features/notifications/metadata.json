@@ -1,0 +1,11 @@
+{
+  "id": "notifications",
+  "name": "notifications",
+  "domain": "tour-guides",
+  "category": "feature",
+  "description": "Complete notifications feature from Mallorca Activities",
+  "solves": ["Feature-specific problems"],
+  "tags": ["notifications"],
+  "maturity": "production-ready",
+  "extracted_from": "Mallorca Activities"
+}

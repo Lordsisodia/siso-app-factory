@@ -1,0 +1,74 @@
+{
+  "id": "tour-booking-system",
+  "name": "Tour Booking System",
+  "domain": "tour-guides",
+  "category": "feature",
+  "description": "Complete tour booking system with real-time availability, deposits, confirmations, capacity management, and multi-day tour support",
+
+  "solves": [
+    "Tour bookings and reservations",
+    "Real-time availability checking",
+    "Capacity management",
+    "Deposit collection",
+    "Booking confirmations",
+    "Multi-day tour scheduling"
+  ],
+
+  "includes": {
+    "components": "Booking form, tour selector, date picker, payment form, confirmation modal",
+    "hooks": "useTourBooking, useAvailability, useTourSchedule",
+    "actions": "create-booking, update-booking, cancel-booking, check-availability",
+    "api_routes": 14,
+    "server_actions": 5,
+    "db_tables": "bookings, tours, availability, schedules"
+  },
+
+  "best_for": [
+    "Tour operators",
+    "Activity platforms",
+    "Experience providers",
+    "Multi-day tour companies",
+    "Excursion bookings"
+  ],
+
+  "requires": {
+    "database": "Postgres (via Drizzle ORM)",
+    "payment": "Stripe",
+    "email": "Resend or similar",
+    "sms": "Optional (Twilio)"
+  },
+
+  "configuration": [
+    "Deposit percentage",
+    "Booking window (how far in advance)",
+    "Cancellation policy",
+    "Max capacity per tour",
+    "Multi-day pricing",
+    "Weather alerts integration"
+  ],
+
+  "setup_time": "45-60 minutes",
+  "complexity": "complex",
+  "maturity": "production-ready",
+
+  "business_value": "Saves 4-6 weeks of development, $15,000-$20,000 in dev costs",
+
+  "extracted_from": "Mallorca Activities (production app)",
+  "used_by": ["Mallorca Activities"],
+
+  "tags": [
+    "booking",
+    "tours",
+    "reservations",
+    "deposits",
+    "capacity-management",
+    "scheduling",
+    "confirmations",
+    "availability"
+  ],
+
+  "dependencies": {
+    "ui": ["@siso/ui/primitives/buttons", "@siso/ui/primitives/cards", "@siso/ui/primitives/inputs", "@siso/ui/primitives/calendars"],
+    "external": ["stripe", "date-fns", "zod", "react-hook-form", "drizzle-orm"]
+  }
+}

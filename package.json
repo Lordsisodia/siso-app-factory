@@ -1,0 +1,33 @@
+{
+  "name": "siso-app-factory",
+  "version": "1.0.0",
+  "description": "SISO App Factory - Universal UI & Feature Library for Infinite Scalability",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "tools/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspaces",
+    "clean": "npm run clean --workspaces",
+    "generate:metadata": "node tools/generate-metadata.js",
+    "search": "node tools/ai-search.js"
+  },
+  "keywords": [
+    "ui-library",
+    "component-library",
+    "feature-library",
+    "restaurant",
+    "tour-guide",
+    "bike-rental"
+  ],
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

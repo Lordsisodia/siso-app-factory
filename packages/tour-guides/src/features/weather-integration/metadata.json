@@ -1,0 +1,11 @@
+{
+  "id": "weather-integration",
+  "name": "weather integration",
+  "domain": "tour-guides",
+  "category": "feature",
+  "description": "Complete weather-integration feature from Mallorca Activities",
+  "solves": ["Feature-specific problems"],
+  "tags": ["weather,integration"],
+  "maturity": "production-ready",
+  "extracted_from": "Mallorca Activities"
+}

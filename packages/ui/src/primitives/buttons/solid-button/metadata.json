@@ -1,0 +1,97 @@
+{
+  "id": "solid-button",
+  "name": "Solid Button",
+  "description": "Standard filled button with solid background color. High contrast, attention-grabbing design perfect for primary actions.",
+  "type": "button",
+  "category": "primitive",
+
+  "visual_style": "bold, high-contrast, solid",
+  "visual_weight": "heavy",
+  "aesthetic": "professional, standard, clean",
+
+  "best_for": [
+    "Primary CTAs",
+    "Form submit buttons",
+    "Important actions",
+    "Call-to-action buttons",
+    "Conversion-focused interactions"
+  ],
+
+  "use_cases": [
+    "Sign up",
+    "Buy now",
+    "Submit form",
+    "Book now",
+    "Reserve table",
+    "Get started",
+    "Contact us"
+  ],
+
+  "avoid_for": [
+    "Subtle secondary actions",
+    "Tertiary actions",
+    "Minimal designs requiring ghost buttons"
+  ],
+
+  "complexity": "simple",
+  "customization": "high",
+  "accessibility": "AAA compliant",
+  "keyboard_nav": true,
+  "screen_reader": true,
+
+  "animation": true,
+  "animation_type": "scale on click",
+  "responsive": true,
+  "dark_mode": true,
+
+  "variants": ["primary", "secondary", "danger", "success"],
+  "sizes": ["sm", "md", "lg"],
+
+  "dependencies": {
+    "internal": ["cn utility"],
+    "external": ["clsx", "tailwind-merge"]
+  },
+
+  "performance": "lightweight",
+  "bundle_size": "2kb",
+
+  "source": "shadcn-ui",
+  "source_url": "https://ui.shadcn.com/docs/components/button",
+
+  "tags": [
+    "button",
+    "solid",
+    "filled",
+    "cta",
+    "primary",
+    "action",
+    "interactive",
+    "bold",
+    "standard"
+  ],
+
+  "industry_fit": {
+    "restaurants": 0.9,
+    "tour-guides": 0.9,
+    "bike-rental": 0.9,
+    "saas": 0.9,
+    "e-commerce": 0.95,
+    "marketing": 0.95,
+    "general": 1.0
+  },
+
+  "examples": [
+    {
+      "title": "Primary CTA",
+      "code": "<SolidButton variant=\"primary\">Book Now</SolidButton>"
+    },
+    {
+      "title": "Form Submit",
+      "code": "<SolidButton variant=\"primary\" type=\"submit\">Submit</SolidButton>"
+    },
+    {
+      "title": "Danger Action",
+      "code": "<SolidButton variant=\"danger\" size=\"lg\">Delete Account</SolidButton>"
+    }
+  ]
+}

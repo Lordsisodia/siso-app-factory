@@ -1,0 +1,11 @@
+{
+  "id": "admin-panel",
+  "name": "admin panel",
+  "domain": "tour-guides",
+  "category": "feature",
+  "description": "Complete admin-panel feature from Mallorca Activities",
+  "solves": ["Feature-specific problems"],
+  "tags": ["admin,panel"],
+  "maturity": "production-ready",
+  "extracted_from": "Mallorca Activities"
+}
