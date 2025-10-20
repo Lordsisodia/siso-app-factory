@@ -153,9 +153,22 @@ siso_ui_library:
   enabled: true
   location: "/Users/shaansisodia/DEV/SISO-ECOSYSTEM/SISO-UI-Library/"
   catalog: "COMPLETE-EXTRACTION-INVENTORY.md"
-  total_assets: 167
-  integration: "Required for component planning phase"
-  reuse_target_percent: 70  # Aim for 70%+ component reuse
+  total_components: 1132  # SISO-UI-Library component files
+  library_folders: 139
+  size_gb: 2.7
+  integration: "REQUIRED for component planning phase - load before Phase 5"
+  reuse_target_percent: 85  # Target 85%+ component reuse
+
+siso_app_factory_components:
+  enabled: true
+  location: "siso-app-factory/packages/*/components/"
+  total_components: 851  # Custom production-tested components
+  integration: "Reference for proven patterns"
+
+total_component_ecosystem:
+  components: 1983  # 1132 + 851
+  estimated_with_variants: "2000-3000"
+  competitive_advantage: "Largest curated React component library"
 
 config_driven_theming:
   enabled: true

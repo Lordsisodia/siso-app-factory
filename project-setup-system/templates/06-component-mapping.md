@@ -5,17 +5,29 @@
 
 ---
 
-## 🎯 CRITICAL: Load SISO-UI-Library First!
+## 🎯 CRITICAL: Load SISO Component Ecosystem First!
 
 **Before planning ANY components:**
 
 ```
-Read: /Users/shaansisodia/DEV/SISO-ECOSYSTEM/SISO-UI-Library/COMPLETE-EXTRACTION-INVENTORY.md
+SISO Component Ecosystem:
+- 1,132 components in SISO-UI-Library (139 library sources)
+- 851 components in siso-app-factory (custom, production-tested)
+- TOTAL: 1,983+ components
+- Size: 2.7GB
+- Variants: 2,000-3,000 estimated
 
-Available: 167+ components, actions, utilities across 140+ library sources
+Location: /Users/shaansisodia/DEV/SISO-ECOSYSTEM/SISO-UI-Library/
+Reference: integrations/COMPONENT-INVENTORY-ACCURATE.md
 ```
 
-**DO NOT plan components from scratch. Map to existing library first!**
+**MANDATORY: Map to siso-app-factory first, then fallback to SISO-UI-Library!**
+
+**Component Selection Priority**:
+1. ✅ siso-app-factory/packages/ (PRIMARY - 851 components)
+2. ✅ siso-app-factory/packages/[domain]/ (if industry match)
+3. ⚠️ SISO-UI-Library (FALLBACK - legacy library)
+4. ❌ Build custom (LAST RESORT)
 
 ---
 
@@ -26,64 +38,84 @@ Available: 167+ components, actions, utilities across 140+ library sources
 **Route**: [/path]
 **Layout**: [Marketing | Dashboard | Admin]
 
-#### Components Needed → Library Mapping
+#### Components Needed → siso-app-factory Mapping
 
-| Component Need | SISO-UI-Library Source | Alternative | Customization | Effort |
-|----------------|------------------------|-------------|---------------|--------|
-| Header/Nav | 21st-dev-ui-components/navbar/nav-v3 | shadcn-ui/navigation-menu | Logo, menu items | 1hr |
-| Hero Section | 21st-dev-ui-components/hero/fullscreen-v2 | tailblocks-ui | Images, copy | 2hr |
-| Product Grid | shadcn-ui/card + custom layout | 21st-dev product cards | Item-specific fields | 3hr |
-| Search Bar | cmdk-library | shadcn-ui/command | Styling | 1hr |
-| Footer | 21st-dev-ui-components/footer/footer-v5 | flowbite-ui | Links, social | 1hr |
+| Component Need | siso-app-factory Source | Fallback (SISO-UI-Library) | Customization | Effort |
+|----------------|-------------------------|---------------------------|---------------|--------|
+| Header/Nav | packages/ui/src/primitives/headers/Header.v3 | 21st-dev navbar | Logo, menu | 0.5hr |
+| Hero Section | packages/ui/src/primitives/heroes/HeroFullscreen.v2 | 21st-dev hero | Images, copy | 1hr |
+| Product Grid | packages/ui/src/patterns/sections/ProductGrid.tsx | 21st-dev | Fields | 2hr |
+| Search Bar | packages/ui/src/primitives/inputs/SearchBar.tsx | cmdk-library | Styling | 0.5hr |
+| Footer | packages/ui/src/primitives/footers/Footer.v5 | 21st-dev | Links, social | 0.5hr |
 
-**Total Effort**: 8 hours (vs. 20+ hours building from scratch)
+**Total Effort**: 4.5 hours (from siso-app-factory) vs. 40+ hours from scratch
+
+**Reuse Rate**: 100% from siso-app-factory (0% custom needed)
 
 ---
 
-## Shared Component Library
+## siso-app-factory Component Library (PRIMARY)
 
-### UI Primitives (shadcn-ui)
-Location: `/SISO-UI-Library/shadcn-ui/`
+### UI Primitives
+Location: `siso-app-factory/packages/ui/src/primitives/`
 
-- [ ] Button - `shadcn-ui/button`
-- [ ] Input - `shadcn-ui/input`
-- [ ] Card - `shadcn-ui/card`
-- [ ] Dialog - `shadcn-ui/dialog`
-- [ ] Select - `shadcn-ui/select`
-- [ ] Form - `shadcn-ui/form`
-- [ ] Badge - `shadcn-ui/badge`
-- [ ] Avatar - `shadcn-ui/avatar`
-- [ ] Tabs - `shadcn-ui/tabs`
-- [ ] Accordion - `shadcn-ui/accordion`
+- [ ] Buttons - `primitives/buttons/*`
+- [ ] Cards - `primitives/cards/*`
+- [ ] Headers - `primitives/headers/*`
+- [ ] Footers - `primitives/footers/*`
+- [ ] Heroes - `primitives/heroes/*`
+- [ ] Forms - `primitives/forms/*`
+- [ ] Inputs - `primitives/inputs/*`
+- [ ] Modals - `primitives/modals/*`
+- [ ] [40+ more categories...]
 
-### Pre-Built Blocks (21st.dev)
-Location: `/SISO-UI-Library/21st-dev-ui-components/`
+### Pattern Components
+Location: `siso-app-factory/packages/ui/src/patterns/`
 
-- [ ] Hero sections (10+ variants)
-- [ ] Features grids (8+ variants)
-- [ ] Testimonials (6+ variants)
-- [ ] Pricing tables (5+ variants)
-- [ ] CTA sections (8+ variants)
-- [ ] Footers (7+ variants)
+- [ ] Sections - `patterns/sections/*` (features, pricing, CTAs, testimonials)
+- [ ] Lists - `patterns/lists/*` (reviews, items, leaderboards)
+- [ ] Layouts - `patterns/layouts/*`
 
-### Animations
-Location: `/SISO-UI-Library/framer-motion-library/`
+### Domain Packages (Industry-Specific)
 
-- [ ] Page transitions - `framer-motion`
-- [ ] Scroll animations - `aos-library`
-- [ ] Hover effects - `hover-css`
+#### For Restaurant Apps
+Location: `siso-app-factory/packages/restaurants/`
+- [ ] Menu displays
+- [ ] Booking systems
+- [ ] Loyalty UI
+- [ ] Table management
+- [ ] Order systems
 
-### Forms
-Location: `/SISO-UI-Library/react-hook-form-library/`
+#### For Bike Rental Apps
+Location: `siso-app-factory/packages/bike-rental/`
+- [ ] Product catalog - `features/product-catalog/components/`
+- [ ] Booking UI - `features/rental-booking/components/`
+- [ ] User dashboard - `features/user-dashboard/components/`
+- [ ] Filters - `features/product-filters/components/`
+- [ ] Admin - `features/admin-system/components/`
+- [ ] Reviews - `features/review-system/components/`
 
-- [ ] Form management - `react-hook-form`
-- [ ] Validation - Use with Zod
+#### For Tour/Activity Apps
+Location: `siso-app-factory/packages/tour-guides/`
+- [ ] Booking system - `features/booking-system/components/`
+- [ ] Availability - `features/availability-system/components/`
+- [ ] Payment - `features/payment-processing/components/`
+- [ ] Admin - `features/admin-panel/components/`
 
-### Charts (if needed)
-Location: `/SISO-UI-Library/apexcharts-library/`
+---
 
-- [ ] Line/Bar charts - `apexcharts`
-- [ ] Alternative: `recharts-library`
+## SISO-UI-Library (FALLBACK - Legacy)
+
+**Use only if not found in siso-app-factory**
+
+Location: `/Users/shaansisodia/DEV/SISO-ECOSYSTEM/SISO-UI-Library/`
+
+Useful for specialized libraries:
+- Charts: `apexcharts-library`, `recharts-library`
+- Animations: `framer-motion-library`, `gsap-library`
+- Advanced forms: `react-hook-form-library`
+- Carousels: `swiper-library`, `keen-slider-library`
+- Icons: `lucide-icons`, `heroicons-library`
 
 ---
 
@@ -149,20 +181,20 @@ components:
 ## ✅ Installation Checklist
 
 ```bash
-# Install shadcn-ui components
-npx shadcn-ui@latest add button card form input dialog
+# PRIMARY: Copy from siso-app-factory
+cp -r siso-app-factory/packages/ui/src/primitives/* ./src/components/ui/
+cp -r siso-app-factory/packages/ui/src/patterns/* ./src/components/patterns/
 
-# Install animation libraries
-npm install framer-motion aos
+# If domain match exists
+cp -r siso-app-factory/packages/restaurants/* ./src/domains/menu/  # For restaurant apps
+cp -r siso-app-factory/packages/bike-rental/* ./src/domains/rental/  # For bike apps
+cp -r siso-app-factory/packages/tour-guides/* ./src/domains/tours/  # For tour apps
 
-# Install form libraries
-npm install react-hook-form @hookform/resolvers zod
+# Install required dependencies
+npm install framer-motion react-hook-form @hookform/resolvers zod clsx tailwind-merge
 
-# Install utility libraries
-npm install clsx tailwind-merge
-
-# Copy from SISO-UI-Library
-cp -r /Users/shaansisodia/DEV/SISO-ECOSYSTEM/SISO-UI-Library/21st-dev-ui-components/hero ./src/components/
+# FALLBACK: Only if needed from SISO-UI-Library
+cp -r /Users/shaansisodia/DEV/SISO-ECOSYSTEM/SISO-UI-Library/[specific-library]/* ./src/components/
 ```
 
 ---
