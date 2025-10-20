@@ -80,14 +80,21 @@ macro_phases:
       - "docs/05-technical/erd.md"
       - "docs/05-technical/component-catalog.md"
       - "docs/08-build-plan/domains/*.md"
+      - "siso-site-config.yaml"  # Config-driven theming
     validation:
       min_domains: 10
       max_domains: 20
       min_tables: 20
       min_components: 50
+      components_from_library_percent: 70  # At least 70% from SISO-UI-Library
+      config_driven_theming: true  # Must include site config
     tools_required:
       - "mermaid"  # for diagrams
       - "markdown"
+    context_required:
+      - "SISO-UI-Library catalog"  # Must load before component planning
+      - "integrations/SISO-UI-LIBRARY-COMPONENT-MAPPING.md"
+      - "integrations/CONFIG-DRIVEN-THEMING-GUIDE.md"
 
   - id: "delivery"
     name: "Delivery"
@@ -142,10 +149,30 @@ quality_control:
       - "Timeline must be 12-16 weeks"
       - "All phases must have dependencies mapped"
 
+siso_ui_library:
+  enabled: true
+  location: "/Users/shaansisodia/DEV/SISO-ECOSYSTEM/SISO-UI-Library/"
+  catalog: "COMPLETE-EXTRACTION-INVENTORY.md"
+  total_assets: 167
+  integration: "Required for component planning phase"
+  reuse_target_percent: 70  # Aim for 70%+ component reuse
+
+config_driven_theming:
+  enabled: true
+  config_file: "siso-site-config.yaml"
+  database_table: "site_config"
+  theme_provider: "src/shared/providers/ThemeProvider.tsx"
+  css_variables: true
+  realtime_updates: true
+  admin_ui: true
+
 context_documents:
   deep_research: "context/DEEP-RESEARCH-CONTEXT.md"
+  ai_framework_questions: "context/AI-FRAMEWORK-RESEARCH-QUESTIONS.md"
   supabase_guide: "integrations/SUPABASE-INTEGRATION-GUIDE.md"
   clerk_guide: "integrations/CLERK-INTEGRATION-GUIDE.md"
+  component_mapping: "integrations/SISO-UI-LIBRARY-COMPONENT-MAPPING.md"
+  theming_guide: "integrations/CONFIG-DRIVEN-THEMING-GUIDE.md"
   industry_knowledge_bases: "knowledge-bases/"
 
 templates:
