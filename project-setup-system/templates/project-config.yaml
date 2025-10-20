@@ -1,0 +1,106 @@
+# SISO App Factory - Project Configuration Template
+
+project:
+  name: "project-name"
+  industry: "industry-type"
+  created: "2025-10-20"
+  status: "planning" # planning | development | testing | launched
+
+planning:
+  research_completed: false
+  features_defined: false
+  architecture_designed: false
+  domains_planned: false
+  database_designed: false
+  components_mapped: false
+  build_plan_created: false
+
+industry:
+  type: "industry-type"
+  geography: "TBD"
+  target_customers: []
+  competitors: []
+  market_size: ""
+  growth_rate: ""
+
+tech_stack:
+  frontend:
+    framework: "Next.js"
+    language: "TypeScript"
+    styling: "TailwindCSS"
+    state: "React Query"
+    forms: "React Hook Form"
+
+  backend:
+    runtime: "Node.js"
+    api_style: "Server Actions"
+    validation: "Zod"
+    orm: "Prisma"
+
+  database:
+    primary: "PostgreSQL"
+    hosting: "Supabase"
+    caching: "Redis"
+
+  auth:
+    provider: "Clerk"
+    methods: ["email", "social"]
+
+  storage:
+    images: "TBD"
+    cdn: "Vercel"
+
+  communications:
+    email: "Resend"
+    sms: "TBD"
+    whatsapp: "TBD"
+
+  payments:
+    gateway: "TBD"
+    methods: []
+
+  analytics:
+    web: "GA4"
+    product: "Mixpanel"
+    errors: "Sentry"
+
+  deployment:
+    platform: "Vercel"
+    cicd: "GitHub Actions"
+
+architecture:
+  pattern: "Domain-Driven Design"
+  multi_tenancy: "TBD"
+  domains: []
+
+features:
+  mvp_count: 0
+  total_count: 0
+  priority_breakdown:
+    must_have: 0
+    should_have: 0
+    nice_to_have: 0
+
+database:
+  tables_count: 0
+  migration_strategy: "incremental"
+
+bmad:
+  enabled: true
+  version: "latest"
+  location: "docs/00-methods/bmad/vendor/BMAD-METHOD"
+
+timeline:
+  planning_days: 10
+  development_weeks: 12
+  total_weeks: 14
+  start_date: ""
+  target_launch: ""
+
+budget:
+  development: ""
+  monthly_operating: ""
+  free_tier_limits:
+    supabase: true
+    vercel: true
+    clerk: true
