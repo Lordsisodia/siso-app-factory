@@ -182,6 +182,7 @@ config_driven_theming:
 context_documents:
   deep_research: "context/DEEP-RESEARCH-CONTEXT.md"
   ai_framework_questions: "context/AI-FRAMEWORK-RESEARCH-QUESTIONS.md"
+  ai_framework_findings: "context/AI-FRAMEWORK-RESEARCH-FINDINGS.md"  # 25min deep research on Priority 20 questions
   supabase_guide: "integrations/SUPABASE-INTEGRATION-GUIDE.md"
   clerk_guide: "integrations/CLERK-INTEGRATION-GUIDE.md"
   component_mapping: "integrations/SISO-UI-LIBRARY-COMPONENT-MAPPING.md"
