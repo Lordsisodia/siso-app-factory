@@ -1,0 +1,36 @@
+{
+  "id": "restaurant-ui-library-components-9-marketing-animated-glow-card",
+  "name": "animated-glow-card",
+  "description": "animated-glow-card component from restaurant-ui-library/components/9-marketing",
+  "type": "card",
+  "category": "primitive",
+  "visual_style": "standard, clean",
+  "visual_weight": "medium",
+  "aesthetic": "professional",
+  "best_for": [
+    "Content display, grid items, information containers"
+  ],
+  "use_cases": [],
+  "avoid_for": [],
+  "complexity": "simple",
+  "customization": "high",
+  "accessibility": "AA compliant",
+  "animation": false,
+  "responsive": true,
+  "dark_mode": true,
+  "source": "restaurant-ui-library/components/9-marketing",
+  "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/feature-highlights/animated-glow-card/animated-glow-card.tsx",
+  "tags": [
+    "card",
+    "animated-glow-card",
+    "restaurant-ui-library/components/9-marketing"
+  ],
+  "industry_fit": {
+    "restaurants": 0.9,
+    "tour-guides": 0.9,
+    "bike-rental": 0.9,
+    "general": 1
+  },
+  "created_at": "2025-10-20T09:19:53.175Z",
+  "auto_generated": true
+}

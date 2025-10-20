@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "generated_at": "2025-10-19T22:35:57.032Z",
-  "component_count": 633,
+  "generated_at": "2025-10-20T09:19:53.270Z",
+  "component_count": 650,
   "feature_count": 19,
   "ui_components": {
     "accordions": {
@@ -1288,7 +1288,7 @@
       ]
     },
     "buttons": {
-      "count": 27,
+      "count": 28,
       "variations": [
         {
           "id": "21st-dev-official-bookmark-button",
@@ -2068,6 +2068,43 @@
           "path": "ui/src/primitives/buttons/park-ui-submit-button"
         },
         {
+          "id": "restaurant-ui-library-components-9-marketing-hover-button",
+          "name": "hover-button",
+          "description": "hover-button component from restaurant-ui-library/components/9-marketing",
+          "type": "button",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "User actions, CTAs, form submissions"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/cta-sections/hover-button/hover-button.tsx",
+          "tags": [
+            "button",
+            "hover-button",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.173Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/buttons/restaurant-ui-library/components/9-marketing-hover-button"
+        },
+        {
           "id": "restaurant-ui-library-button",
           "name": "button",
           "description": "button component from restaurant-ui-library",
@@ -2371,7 +2408,7 @@
       ]
     },
     "cards": {
-      "count": 40,
+      "count": 41,
       "variations": [
         {
           "id": "21st-dev-official-card",
@@ -3334,6 +3371,43 @@
           "created_at": "2025-10-19T20:14:04.929Z",
           "auto_generated": true,
           "path": "ui/src/primitives/cards/park-ui-hover-card"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-animated-glow-card",
+          "name": "animated-glow-card",
+          "description": "animated-glow-card component from restaurant-ui-library/components/9-marketing",
+          "type": "card",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "Content display, grid items, information containers"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/feature-highlights/animated-glow-card/animated-glow-card.tsx",
+          "tags": [
+            "card",
+            "animated-glow-card",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.175Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/cards/restaurant-ui-library/components/9-marketing-animated-glow-card"
         },
         {
           "id": "restaurant-ui-library-animated-glow-card",
@@ -6274,7 +6348,7 @@
       ]
     },
     "heroes": {
-      "count": 12,
+      "count": 13,
       "variations": [
         {
           "id": "21st-dev-official-hero",
@@ -6497,6 +6571,43 @@
           "created_at": "2025-10-19T20:14:04.846Z",
           "auto_generated": true,
           "path": "ui/src/primitives/heroes/bike-hire-ui-library-search-hero"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-hero-pill",
+          "name": "hero-pill",
+          "description": "hero-pill component from restaurant-ui-library/components/9-marketing",
+          "type": "heroe",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/cta-sections/hero-pill/hero-pill.tsx",
+          "tags": [
+            "heroe",
+            "hero-pill",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.171Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/heroes/restaurant-ui-library/components/9-marketing-hero-pill"
         },
         {
           "id": "restaurant-ui-library-hero",
@@ -8075,7 +8186,7 @@
       ]
     },
     "misc": {
-      "count": 233,
+      "count": 247,
       "variations": [
         {
           "id": "21st-dev-official-api-docs",
@@ -13663,6 +13774,524 @@
           "created_at": "2025-10-19T20:14:04.941Z",
           "auto_generated": true,
           "path": "ui/src/primitives/misc/park-ui-text"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-about-us-section",
+          "name": "about-us-section",
+          "description": "about-us-section component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/feature-highlights/about-us-section/about-us-section.tsx",
+          "tags": [
+            "mis",
+            "about-us-section",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.174Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-about-us-section"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+          "name": "animated-gradient-background",
+          "description": "animated-gradient-background component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/cta-sections/animated-gradient-background/animated-gradient-background.tsx",
+          "tags": [
+            "mis",
+            "animated-gradient-background",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.168Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-animated-gradient-background"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+          "name": "animated-shiny-text",
+          "description": "animated-shiny-text component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/feature-highlights/animated-shiny-text/animated-shiny-text.tsx",
+          "tags": [
+            "mis",
+            "animated-shiny-text",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.176Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-animated-shiny-text"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-announcement",
+          "name": "announcement",
+          "description": "announcement component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/announcements/announcement/announcement.tsx",
+          "tags": [
+            "mis",
+            "announcement",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.164Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-announcement"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-banner",
+          "name": "banner",
+          "description": "banner component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/announcements/banner/banner.tsx",
+          "tags": [
+            "mis",
+            "banner",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.166Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-banner"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-call-to-action",
+          "name": "call-to-action",
+          "description": "call-to-action component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/cta-sections/call-to-action/call-to-action.tsx",
+          "tags": [
+            "mis",
+            "call-to-action",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.169Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-call-to-action"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-call-to-action-1",
+          "name": "call-to-action-1",
+          "description": "call-to-action-1 component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/cta-sections/call-to-action-1/call-to-action-1.tsx",
+          "tags": [
+            "mis",
+            "call-to-action-1",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.170Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-call-to-action-1"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-demo",
+          "name": "demo",
+          "description": "demo component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/sticky-scroll-gallery/sticky-scroll/demo.tsx",
+          "tags": [
+            "mis",
+            "demo",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.180Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-demo"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-gallery4",
+          "name": "gallery4",
+          "description": "gallery4 component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/feature-highlights/gallery4/gallery4.tsx",
+          "tags": [
+            "mis",
+            "gallery4",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.177Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-gallery4"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-lamp",
+          "name": "lamp",
+          "description": "lamp component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/feature-highlights/lamp/lamp.tsx",
+          "tags": [
+            "mis",
+            "lamp",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.178Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-lamp"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-moving-border",
+          "name": "moving-border",
+          "description": "moving-border component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/cta-sections/moving-border/moving-border.tsx",
+          "tags": [
+            "mis",
+            "moving-border",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.174Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-moving-border"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-shine-border",
+          "name": "shine-border",
+          "description": "shine-border component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/feature-highlights/shine-border/shine-border.tsx",
+          "tags": [
+            "mis",
+            "shine-border",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.179Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-shine-border"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-sticky-scroll",
+          "name": "sticky-scroll",
+          "description": "sticky-scroll component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/sticky-scroll-gallery/sticky-scroll/sticky-scroll.tsx",
+          "tags": [
+            "mis",
+            "sticky-scroll",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.180Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-sticky-scroll"
+        },
+        {
+          "id": "restaurant-ui-library-components-9-marketing-transition-panel",
+          "name": "transition-panel",
+          "description": "transition-panel component from restaurant-ui-library/components/9-marketing",
+          "type": "mis",
+          "category": "primitive",
+          "visual_style": "standard, clean",
+          "visual_weight": "medium",
+          "aesthetic": "professional",
+          "best_for": [
+            "General use"
+          ],
+          "use_cases": [],
+          "avoid_for": [],
+          "complexity": "simple",
+          "customization": "high",
+          "accessibility": "AA compliant",
+          "animation": false,
+          "responsive": true,
+          "dark_mode": true,
+          "source": "restaurant-ui-library/components/9-marketing",
+          "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/restaurant-ui-library/components/9-marketing/feature-highlights/transition-panel/transition-panel.tsx",
+          "tags": [
+            "mis",
+            "transition-panel",
+            "restaurant-ui-library/components/9-marketing"
+          ],
+          "industry_fit": {
+            "restaurants": 0.9,
+            "tour-guides": 0.9,
+            "bike-rental": 0.9,
+            "general": 1
+          },
+          "created_at": "2025-10-20T09:19:53.179Z",
+          "auto_generated": true,
+          "path": "ui/src/primitives/misc/restaurant-ui-library/components/9-marketing-transition-panel"
         },
         {
           "id": "restaurant-ui-library-call-to-action",
@@ -24200,6 +24829,7 @@
         "park-ui-button",
         "park-ui-icon-button",
         "park-ui-submit-button",
+        "restaurant-ui-library-components-9-marketing-hover-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-chronicle-button",
         "restaurant-ui-library-hover-button",
@@ -24238,6 +24868,7 @@
         "magic-ui-tweet-card",
         "park-ui-card",
         "park-ui-hover-card",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card",
         "restaurant-ui-library-card",
         "restaurant-ui-library-testimonial-card",
@@ -24344,6 +24975,7 @@
         "bike-hire-ui-library-hero",
         "bike-hire-ui-library-page-hero",
         "bike-hire-ui-library-search-hero",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero",
         "restaurant-ui-library-hero-highlight",
         "restaurant-ui-library-hero-pill",
@@ -24547,6 +25179,20 @@
         "park-ui-splitter",
         "park-ui-stepper",
         "park-ui-text",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel",
         "restaurant-ui-library-call-to-action",
         "restaurant-ui-library-call-to-action-1",
         "restaurant-ui-library-demo",
@@ -24895,6 +25541,7 @@
         "park-ui-button",
         "park-ui-icon-button",
         "park-ui-submit-button",
+        "restaurant-ui-library-components-9-marketing-hover-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-chronicle-button",
         "restaurant-ui-library-hover-button",
@@ -24923,6 +25570,7 @@
         "bike-hire-ui-library-stat-card",
         "park-ui-card",
         "park-ui-hover-card",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card",
         "restaurant-ui-library-card",
         "restaurant-ui-library-testimonial-card",
@@ -24997,6 +25645,7 @@
         "bike-hire-ui-library-hero",
         "bike-hire-ui-library-page-hero",
         "bike-hire-ui-library-search-hero",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero",
         "restaurant-ui-library-hero-highlight",
         "restaurant-ui-library-hero-pill",
@@ -25141,6 +25790,20 @@
         "park-ui-splitter",
         "park-ui-stepper",
         "park-ui-text",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel",
         "restaurant-ui-library-call-to-action",
         "restaurant-ui-library-call-to-action-1",
         "restaurant-ui-library-demo",
@@ -25420,6 +26083,7 @@
         "park-ui-button",
         "park-ui-icon-button",
         "park-ui-submit-button",
+        "restaurant-ui-library-components-9-marketing-hover-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-chronicle-button",
         "restaurant-ui-library-hover-button",
@@ -25450,6 +26114,7 @@
         "bike-hire-ui-library-stat-card",
         "park-ui-card",
         "park-ui-hover-card",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card",
         "restaurant-ui-library-card",
         "restaurant-ui-library-testimonial-card",
@@ -25533,6 +26198,7 @@
         "bike-hire-ui-library-hero",
         "bike-hire-ui-library-page-hero",
         "bike-hire-ui-library-search-hero",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero",
         "restaurant-ui-library-hero-highlight",
         "restaurant-ui-library-hero-pill",
@@ -25682,6 +26348,20 @@
         "park-ui-splitter",
         "park-ui-stepper",
         "park-ui-text",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel",
         "restaurant-ui-library-call-to-action",
         "restaurant-ui-library-call-to-action-1",
         "restaurant-ui-library-demo",
@@ -26422,6 +27102,7 @@
         "park-ui-button",
         "park-ui-icon-button",
         "park-ui-submit-button",
+        "restaurant-ui-library-components-9-marketing-hover-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-chronicle-button",
         "restaurant-ui-library-hover-button",
@@ -26456,6 +27137,7 @@
         "magic-ui-tweet-card",
         "park-ui-card",
         "park-ui-hover-card",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card",
         "restaurant-ui-library-card",
         "restaurant-ui-library-testimonial-card",
@@ -26540,6 +27222,7 @@
         "bike-hire-ui-library-hero",
         "bike-hire-ui-library-page-hero",
         "bike-hire-ui-library-search-hero",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero",
         "restaurant-ui-library-hero-highlight",
         "restaurant-ui-library-hero-pill",
@@ -26733,6 +27416,20 @@
         "park-ui-splitter",
         "park-ui-stepper",
         "park-ui-text",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel",
         "restaurant-ui-library-call-to-action",
         "restaurant-ui-library-call-to-action-1",
         "restaurant-ui-library-demo",
@@ -27613,6 +28310,25 @@
         "21st-dev-scraper-rainbow-button",
         "21st-dev-scraper-splite",
         "21st-dev-scraper-sidebar"
+      ],
+      "restaurant-ui-library/components/9-marketing": [
+        "restaurant-ui-library-components-9-marketing-hover-button",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel"
       ],
       "bike-hire-ui-library": [
         "bike-hire-ui-library-category-cards",
@@ -28533,6 +29249,7 @@
         "park-ui-button",
         "park-ui-icon-button",
         "park-ui-submit-button",
+        "restaurant-ui-library-components-9-marketing-hover-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-chronicle-button",
@@ -28590,11 +29307,31 @@
       "submit-button": [
         "park-ui-submit-button"
       ],
+      "hover-button": [
+        "restaurant-ui-library-components-9-marketing-hover-button",
+        "restaurant-ui-library-hover-button"
+      ],
+      "restaurant-ui-library/components/9-marketing": [
+        "restaurant-ui-library-components-9-marketing-hover-button",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel"
+      ],
       "chronicle-button": [
         "restaurant-ui-library-chronicle-button"
-      ],
-      "hover-button": [
-        "restaurant-ui-library-hover-button"
       ],
       "whatsapp-button": [
         "tour-guide-ui-library-whatsapp-button"
@@ -28635,6 +29372,7 @@
         "park-ui-card",
         "park-ui-card",
         "park-ui-hover-card",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card",
         "restaurant-ui-library-card",
         "restaurant-ui-library-card",
@@ -28759,6 +29497,7 @@
         "magic-ui-tweet-card"
       ],
       "animated-glow-card": [
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card"
       ],
       "testimonial-card": [
@@ -28986,6 +29725,7 @@
         "bike-hire-ui-library-hero",
         "bike-hire-ui-library-page-hero",
         "bike-hire-ui-library-search-hero",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero",
         "restaurant-ui-library-hero-highlight",
         "restaurant-ui-library-hero-pill",
@@ -29002,6 +29742,7 @@
       "hero-pill": [
         "21st-dev-official-hero-pill",
         "21st-dev-ui-components-hero-pill",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero-pill"
       ],
       "page-hero": [
@@ -29281,6 +30022,20 @@
         "park-ui-splitter",
         "park-ui-stepper",
         "park-ui-text",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel",
         "restaurant-ui-library-call-to-action",
         "restaurant-ui-library-call-to-action-1",
         "restaurant-ui-library-demo",
@@ -29573,6 +30328,7 @@
       ],
       "call-to-action": [
         "bike-hire-ui-library-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
         "restaurant-ui-library-call-to-action"
       ],
       "image-with-fallback": [
@@ -29722,6 +30478,7 @@
       ],
       "shine-border": [
         "magic-ui-shine-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
         "restaurant-ui-library-shine-border"
       ],
       "smooth-cursor": [
@@ -29799,11 +30556,48 @@
       "text": [
         "park-ui-text"
       ],
+      "about-us-section": [
+        "restaurant-ui-library-components-9-marketing-about-us-section"
+      ],
+      "animated-gradient-background": [
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background"
+      ],
+      "animated-shiny-text": [
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text"
+      ],
+      "announcement": [
+        "restaurant-ui-library-components-9-marketing-announcement"
+      ],
+      "banner": [
+        "restaurant-ui-library-components-9-marketing-banner"
+      ],
       "call-to-action-1": [
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
         "restaurant-ui-library-call-to-action-1"
       ],
       "demo": [
+        "restaurant-ui-library-components-9-marketing-demo",
         "restaurant-ui-library-demo"
+      ],
+      "gallery4": [
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-gallery4"
+      ],
+      "lamp": [
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-lamp"
+      ],
+      "moving-border": [
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-moving-border"
+      ],
+      "sticky-scroll": [
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-sticky-scroll"
+      ],
+      "transition-panel": [
+        "restaurant-ui-library-components-9-marketing-transition-panel",
+        "restaurant-ui-library-transition-panel"
       ],
       "dotted-surface": [
         "restaurant-ui-library-dotted-surface"
@@ -29814,29 +30608,17 @@
       "etheral-shadow": [
         "restaurant-ui-library-etheral-shadow"
       ],
-      "gallery4": [
-        "restaurant-ui-library-gallery4"
-      ],
       "interactive-bento-gallery": [
         "restaurant-ui-library-interactive-bento-gallery"
       ],
-      "lamp": [
-        "restaurant-ui-library-lamp"
-      ],
       "magnetic-dock": [
         "restaurant-ui-library-magnetic-dock"
-      ],
-      "moving-border": [
-        "restaurant-ui-library-moving-border"
       ],
       "retro-testimonial": [
         "restaurant-ui-library-retro-testimonial"
       ],
       "shuffle-grid": [
         "restaurant-ui-library-shuffle-grid"
-      ],
-      "sticky-scroll": [
-        "restaurant-ui-library-sticky-scroll"
       ],
       "testimonials-columns-1": [
         "restaurant-ui-library-testimonials-columns-1"
@@ -29846,9 +30628,6 @@
       ],
       "tiles": [
         "restaurant-ui-library-tiles"
-      ],
-      "transition-panel": [
-        "restaurant-ui-library-transition-panel"
       ],
       "wave-path": [
         "restaurant-ui-library-wave-path"
@@ -30628,6 +31407,7 @@
         "park-ui-button",
         "park-ui-icon-button",
         "park-ui-submit-button",
+        "restaurant-ui-library-components-9-marketing-hover-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-chronicle-button",
         "restaurant-ui-library-hover-button",
@@ -30662,6 +31442,7 @@
         "magic-ui-tweet-card",
         "park-ui-card",
         "park-ui-hover-card",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card",
         "restaurant-ui-library-card",
         "restaurant-ui-library-testimonial-card",
@@ -30746,6 +31527,7 @@
         "bike-hire-ui-library-hero",
         "bike-hire-ui-library-page-hero",
         "bike-hire-ui-library-search-hero",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero",
         "restaurant-ui-library-hero-highlight",
         "restaurant-ui-library-hero-pill",
@@ -30939,6 +31721,20 @@
         "park-ui-splitter",
         "park-ui-stepper",
         "park-ui-text",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel",
         "restaurant-ui-library-call-to-action",
         "restaurant-ui-library-call-to-action-1",
         "restaurant-ui-library-demo",
@@ -31275,6 +32071,7 @@
         "park-ui-button",
         "park-ui-icon-button",
         "park-ui-submit-button",
+        "restaurant-ui-library-components-9-marketing-hover-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-chronicle-button",
         "restaurant-ui-library-hover-button",
@@ -31309,6 +32106,7 @@
         "magic-ui-tweet-card",
         "park-ui-card",
         "park-ui-hover-card",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card",
         "restaurant-ui-library-card",
         "restaurant-ui-library-testimonial-card",
@@ -31393,6 +32191,7 @@
         "bike-hire-ui-library-hero",
         "bike-hire-ui-library-page-hero",
         "bike-hire-ui-library-search-hero",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero",
         "restaurant-ui-library-hero-highlight",
         "restaurant-ui-library-hero-pill",
@@ -31586,6 +32385,20 @@
         "park-ui-splitter",
         "park-ui-stepper",
         "park-ui-text",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel",
         "restaurant-ui-library-call-to-action",
         "restaurant-ui-library-call-to-action-1",
         "restaurant-ui-library-demo",
@@ -31910,6 +32723,7 @@
         "park-ui-button",
         "park-ui-icon-button",
         "park-ui-submit-button",
+        "restaurant-ui-library-components-9-marketing-hover-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-chronicle-button",
         "restaurant-ui-library-hover-button",
@@ -31944,6 +32758,7 @@
         "magic-ui-tweet-card",
         "park-ui-card",
         "park-ui-hover-card",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card",
         "restaurant-ui-library-card",
         "restaurant-ui-library-testimonial-card",
@@ -32028,6 +32843,7 @@
         "bike-hire-ui-library-hero",
         "bike-hire-ui-library-page-hero",
         "bike-hire-ui-library-search-hero",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero",
         "restaurant-ui-library-hero-highlight",
         "restaurant-ui-library-hero-pill",
@@ -32221,6 +33037,20 @@
         "park-ui-splitter",
         "park-ui-stepper",
         "park-ui-text",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel",
         "restaurant-ui-library-call-to-action",
         "restaurant-ui-library-call-to-action-1",
         "restaurant-ui-library-demo",
@@ -32545,6 +33375,7 @@
         "park-ui-button",
         "park-ui-icon-button",
         "park-ui-submit-button",
+        "restaurant-ui-library-components-9-marketing-hover-button",
         "restaurant-ui-library-button",
         "restaurant-ui-library-chronicle-button",
         "restaurant-ui-library-hover-button",
@@ -32579,6 +33410,7 @@
         "magic-ui-tweet-card",
         "park-ui-card",
         "park-ui-hover-card",
+        "restaurant-ui-library-components-9-marketing-animated-glow-card",
         "restaurant-ui-library-animated-glow-card",
         "restaurant-ui-library-card",
         "restaurant-ui-library-testimonial-card",
@@ -32663,6 +33495,7 @@
         "bike-hire-ui-library-hero",
         "bike-hire-ui-library-page-hero",
         "bike-hire-ui-library-search-hero",
+        "restaurant-ui-library-components-9-marketing-hero-pill",
         "restaurant-ui-library-hero",
         "restaurant-ui-library-hero-highlight",
         "restaurant-ui-library-hero-pill",
@@ -32856,6 +33689,20 @@
         "park-ui-splitter",
         "park-ui-stepper",
         "park-ui-text",
+        "restaurant-ui-library-components-9-marketing-about-us-section",
+        "restaurant-ui-library-components-9-marketing-animated-gradient-background",
+        "restaurant-ui-library-components-9-marketing-animated-shiny-text",
+        "restaurant-ui-library-components-9-marketing-announcement",
+        "restaurant-ui-library-components-9-marketing-banner",
+        "restaurant-ui-library-components-9-marketing-call-to-action",
+        "restaurant-ui-library-components-9-marketing-call-to-action-1",
+        "restaurant-ui-library-components-9-marketing-demo",
+        "restaurant-ui-library-components-9-marketing-gallery4",
+        "restaurant-ui-library-components-9-marketing-lamp",
+        "restaurant-ui-library-components-9-marketing-moving-border",
+        "restaurant-ui-library-components-9-marketing-shine-border",
+        "restaurant-ui-library-components-9-marketing-sticky-scroll",
+        "restaurant-ui-library-components-9-marketing-transition-panel",
         "restaurant-ui-library-call-to-action",
         "restaurant-ui-library-call-to-action-1",
         "restaurant-ui-library-demo",
