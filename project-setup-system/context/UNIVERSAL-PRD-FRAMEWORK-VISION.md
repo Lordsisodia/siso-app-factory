@@ -144,16 +144,44 @@ Agents update these files, not freeform text. The framework validates them, runs
 
 ## 🔁 Lifecycle in the SISO App Factory
 
-1. User inputs idea / problem statement  
-2. Research Agent enriches with data → PRD Draft v0.1  
-3. PM Agent expands into detailed PRD v1.0 (requirements, scope, NFRs)  
-4. Validator Agent checks completeness → passes to Architect  
-5. Architect Agent adds architecture & ADRs → v2.0  
-6. QA Agent generates tests → validation gates  
-7. Dev Agents read architecture → generate code  
-8. Ops Agent builds runbook, metrics  
-9. System auto-verifies coverage + quality → v3.0 = “Build-ready PRD”  
-10. Delivery pipeline uses this PRD to scaffold repositories, CI, infra, etc.
+### Planning Phase (Autonomous AI Agents)
+1. User inputs idea / problem statement
+2. Research Agent enriches with data → PRD Draft v0.1
+3. PM Agent expands into detailed PRD v1.0 (requirements, scope, NFRs)
+4. Validator Agent checks completeness → passes to Architect
+5. Architect Agent adds architecture & ADRs → v2.0
+6. QA Agent generates test plans → validation gates
+7. System auto-verifies coverage + quality → v3.0 = "Build-ready PRD"
+
+### Implementation Phase (AI Coders Execute)
+8. **AI Coder** (Codex CLI, Claude Code, Cursor, Windsurf, etc.) **reads** the complete planning docs:
+   - `docs/08-build-plan/master-checklist.md` - Task-by-task execution plan
+   - `docs/05-technical/component-catalog.md` - Which components to use from library
+   - `docs/05-technical/schema-spec.md` - Database tables to create
+   - `docs/05-technical/architecture.md` - System design
+   - `siso-site-config.yaml` - Theme and configuration
+9. **AI Coder generates** the entire application:
+   - Scaffolds Next.js 15 app structure
+   - Copies components from `siso-app-factory/packages/`
+   - Creates domain folders and code
+   - Generates database migrations
+   - Configures Supabase, Clerk, Stripe
+   - Wires everything together
+10. **AI Coder tests** the generated code (TypeScript compile, tests, E2E)
+11. **Human reviews** and customizes (swap components, adjust configs)
+12. **Deploy** to production (Vercel, custom domain, multi-tenant ready)
+
+### 🔑 Key Principle: AI-Coder Agnostic
+
+**The framework doesn't care WHICH AI coder you use:**
+- Use Codex CLI today (GPT-4)
+- Use Claude Code tomorrow (Opus 4)
+- Use Cursor next week (proprietary model)
+- Use GPT-6 next year (when it's better)
+
+**As AI coders improve, this system automatically benefits** - we're not building the code generator, we're building the PLAN that any AI coder can execute.
+
+This is the **scalability moat** - while others build brittle code generators, we build universal, future-proof planning systems.
 
 At the end, every part of the app can be traced back to a single PRD node.
 
