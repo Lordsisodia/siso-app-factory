@@ -1,0 +1,1 @@
+{"version":3,"file":"component.d.ts","sourceRoot":"","sources":["../../../../src/primitives/misc/magic-ui-text-reveal/component.tsx"],"names":[],"mappings":"AAEA,OAAO,EAAE,wBAAwB,EAAE,EAAE,EAAqB,MAAM,OAAO,CAAA;AAKvE,MAAM,WAAW,eAAgB,SAAQ,wBAAwB,CAAC,KAAK,CAAC;IACtE,QAAQ,EAAE,MAAM,CAAA;CACjB;AAED,eAAO,MAAM,UAAU,EAAE,EAAE,CAAC,eAAe,CAsC1C,CAAA"}

@@ -1,0 +1,6 @@
+"use client";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export default function ActivityCardSkeleton() {
+    return (_jsxs("div", { className: "w-full overflow-hidden rounded-xl border border-white/10 bg-black/20 p-4 shadow-2xl backdrop-blur-xl", children: [_jsx("div", { className: "mb-4 h-48 animate-pulse rounded-lg bg-gray-700/50" }), _jsxs("div", { className: "space-y-3", children: [_jsx("div", { className: "h-6 w-3/4 animate-pulse rounded bg-gray-700/50" }), _jsxs("div", { className: "space-y-2", children: [_jsx("div", { className: "h-4 w-full animate-pulse rounded bg-gray-700/30" }), _jsx("div", { className: "h-4 w-2/3 animate-pulse rounded bg-gray-700/30" })] }), _jsxs("div", { className: "flex justify-between", children: [_jsx("div", { className: "h-4 w-16 animate-pulse rounded bg-gray-700/30" }), _jsx("div", { className: "h-4 w-12 animate-pulse rounded bg-gray-700/30" })] }), _jsx("div", { className: "h-8 w-24 animate-pulse rounded bg-gray-700/50" })] })] }));
+}
+//# sourceMappingURL=component.js.map

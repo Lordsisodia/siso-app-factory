@@ -1,0 +1,9 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, } from "@/components/ui/dialog";
+import { LoaderCircle } from "lucide-react";
+import { PLAN_LIMITS } from "@/lib/config/subscription-plans";
+export function UpgradeConfirmationDialog({ open, onOpenChange, currentPlanId, upgradePlanId, onConfirm, isLoading, }) {
+    return (_jsx(Dialog, { open: open, onOpenChange: onOpenChange, children: _jsxs(DialogContent, { children: [_jsxs(DialogHeader, { children: [_jsx(DialogTitle, { children: "Confirm Plan Upgrade" }), _jsx(DialogDescription, { children: currentPlanId === "free" ? (_jsxs(_Fragment, { children: ["You're about to upgrade to the", " ", PLAN_LIMITS[upgradePlanId].displayName, " plan. You will be charged $", PLAN_LIMITS[upgradePlanId].monthlyPrice, " for the first month."] })) : (_jsxs(_Fragment, { children: ["You're about to upgrade from", " ", PLAN_LIMITS[currentPlanId].displayName, " to", " ", PLAN_LIMITS[upgradePlanId].displayName, ". This will update your existing subscription and you'll be charged the price difference for the current billing period."] })) })] }), _jsxs(DialogFooter, { children: [_jsx(Button, { variant: "outline", onClick: () => onOpenChange(false), children: "Cancel" }), _jsx(Button, { onClick: onConfirm, disabled: isLoading, children: isLoading ? (_jsxs(_Fragment, { children: [_jsx(LoaderCircle, { className: "mr-2 h-3 w-3 animate-spin" }), "Processing"] })) : ("Confirm Upgrade") })] })] }) }));
+}
+//# sourceMappingURL=component.js.map

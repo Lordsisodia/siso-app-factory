@@ -1,0 +1,2 @@
+export declare function InteractiveHoverButton({ children, className, ...props }: React.ButtonHTMLAttributes<HTMLButtonElement>): import("react/jsx-runtime").JSX.Element;
+//# sourceMappingURL=component.d.ts.map

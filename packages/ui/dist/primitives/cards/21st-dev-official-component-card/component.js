@@ -1,0 +1,9 @@
+"use client";
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import Link from "next/link";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+export function ComponentCard({ id, name, description, previewUrl, author, category, votes, className, }) {
+    return (_jsx(Link, { href: `/components/${id}`, children: _jsxs("div", { className: `overflow-hidden rounded-lg border bg-background shadow hover:shadow-md transition-shadow ${className || ""}`, children: [_jsx("div", { className: "aspect-[16/9] w-full overflow-hidden bg-muted", children: previewUrl ? (_jsx("img", { src: previewUrl, alt: name, className: "h-full w-full object-cover" })) : (_jsx("div", { className: "flex h-full items-center justify-center bg-muted", children: _jsx("p", { className: "text-sm text-muted-foreground", children: "No preview" }) })) }), _jsxs("div", { className: "p-4", children: [_jsxs("div", { className: "flex items-center justify-between", children: [_jsx("h3", { className: "text-md font-semibold", children: name }), votes !== undefined && (_jsxs("span", { className: "text-xs bg-muted px-2 py-1 rounded-full", children: [votes, " votes"] }))] }), description && (_jsx("p", { className: "text-sm text-muted-foreground mt-1 line-clamp-2", children: description })), _jsxs("div", { className: "flex items-center justify-between mt-2", children: [author && (_jsxs("div", { className: "flex items-center text-xs text-muted-foreground", children: [_jsxs(Avatar, { className: "h-5 w-5 mr-1", children: [_jsx(AvatarImage, { src: author.avatarUrl }), _jsx(AvatarFallback, { children: author.username?.slice(0, 2).toUpperCase() })] }), _jsx("span", { children: author.username })] })), category && (_jsx(Badge, { variant: "outline", className: "text-xs", children: category }))] })] })] }) }));
+}
+//# sourceMappingURL=component.js.map

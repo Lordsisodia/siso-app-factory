@@ -1,0 +1,24 @@
+import type { ComponentProps } from 'styled-system/types';
+export type RootProviderProps = ComponentProps<typeof RootProvider>;
+export declare const RootProvider: any;
+export type RootProps = ComponentProps<typeof Root>;
+export declare const Root: any;
+export declare const Arrow: any;
+export declare const ArrowTip: any;
+export declare const CheckboxItem: any;
+export declare const Content: any;
+export declare const ContextTrigger: any;
+export declare const Indicator: any;
+export declare const ItemGroupLabel: any;
+export declare const ItemGroup: any;
+export declare const ItemIndicator: any;
+export declare const Item: any;
+export declare const ItemText: any;
+export declare const Positioner: any;
+export declare const RadioItemGroup: any;
+export declare const RadioItem: any;
+export declare const Separator: any;
+export declare const TriggerItem: any;
+export declare const Trigger: any;
+export { MenuContext as Context } from '@ark-ui/react/menu';
+//# sourceMappingURL=component.d.ts.map

@@ -1,0 +1,8 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+const EditDemoModal = ({ submission, demoName, demoSlug, onDemoNameChange, onDemoSlugChange, onClose, onSave, }) => {
+    return (_jsx("div", { className: "fixed inset-0 bg-background/80 flex items-center justify-center z-50", children: _jsxs("div", { className: "bg-card text-card-foreground rounded-lg p-6 max-w-md w-full border shadow-lg", children: [_jsx("h2", { className: "text-xl font-bold mb-4", children: "Edit Demo Information" }), _jsxs("div", { className: "mb-4", children: [_jsx("label", { className: "block text-sm font-medium mb-1", children: "Demo Name" }), _jsx(Input, { value: demoName, onChange: (e) => onDemoNameChange(e.target.value), placeholder: "Demo name", className: "w-full" })] }), _jsxs("div", { className: "mb-4", children: [_jsx("label", { className: "block text-sm font-medium mb-1", children: "Demo Slug" }), _jsx(Input, { value: demoSlug, onChange: (e) => onDemoSlugChange(e.target.value), placeholder: "demo-slug", className: "w-full" }), _jsxs("p", { className: "text-xs text-muted-foreground mt-1", children: ["URL will be: /", submission.user_data.username, "/", submission.component_data.component_slug, "/", demoSlug] })] }), _jsxs("div", { className: "flex justify-end space-x-4", children: [_jsx(Button, { variant: "outline", onClick: onClose, children: "Cancel" }), _jsx(Button, { onClick: onSave, children: "Save Changes" })] })] }) }));
+};
+export default EditDemoModal;
+//# sourceMappingURL=component.js.map

@@ -1,0 +1,10 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
+import { ArrowLeft } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+export function ProductDetailLayout({ product, imageUrl, title, subtitle, category, backLink, sidebar, children, similarProducts, className = '' }) {
+    return (_jsxs("div", { className: `container mx-auto px-4 py-8 ${className}`, children: [backLink && (_jsxs(Link, { to: backLink.href, className: "inline-flex items-center text-muted-foreground hover:text-foreground mb-6", children: [_jsx(ArrowLeft, { className: "w-4 h-4 mr-2" }), backLink.label] })), _jsxs("div", { className: "grid grid-cols-1 lg:grid-cols-3 gap-8", children: [_jsx("div", { className: "lg:col-span-2", children: _jsx(motion.div, { initial: { opacity: 0, y: 20 }, animate: { opacity: 1, y: 0 }, transition: { duration: 0.5 }, className: "rounded-lg overflow-hidden", children: _jsx("img", { src: imageUrl, alt: title, className: "w-full h-auto object-cover rounded-lg", style: { maxHeight: '500px' }, loading: "lazy" }) }) }), _jsxs(motion.div, { initial: { opacity: 0, x: 20 }, animate: { opacity: 1, x: 0 }, transition: { duration: 0.5, delay: 0.2 }, className: "space-y-6", children: [_jsxs("div", { children: [_jsx("h1", { className: "text-3xl font-bold", children: title }), subtitle && (_jsx("p", { className: "text-lg text-muted-foreground mt-1", children: subtitle })), category && (_jsx("div", { className: "flex items-center mt-2", children: _jsx(Badge, { className: "bg-primary text-white", children: category }) }))] }), sidebar] })] }), children && (_jsx("div", { className: "mt-10", children: children })), similarProducts && (_jsx("div", { className: "mt-16", children: similarProducts }))] }));
+}
+export default ProductDetailLayout;
+//# sourceMappingURL=component.js.map

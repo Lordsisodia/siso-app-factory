@@ -1,0 +1,8 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+export function EditCodeFileCard({ iconSrc, mainText, subText, onEditClick, className, }) {
+    return (_jsxs("div", { className: cn("group relative flex items-center gap-4 p-2 pr-24", "border rounded-lg bg-card hover:bg-accent/5", "transition-all duration-200 ease-in-out", "hover:shadow-[0_2px_4px_rgba(0,0,0,0.02)] hover:border-border/80", className), children: [_jsxs("div", { className: "relative flex items-center justify-center w-10 h-10 rounded-md bg-accent/10 ring-1 ring-accent/20 overflow-hidden", children: [_jsx("div", { className: "absolute inset-0 bg-gradient-to-br from-background/10 to-transparent" }), _jsx(Image, { src: iconSrc, width: 36, height: 36, alt: `${mainText} File`, className: "relative shrink-0 transition-transform duration-200 group-hover:scale-110 drop-shadow-sm" })] }), _jsxs("div", { className: "min-w-0 flex-1", children: [_jsx("p", { className: "text-sm font-medium truncate text-foreground", children: mainText }), subText && (_jsx("p", { className: "text-xs text-muted-foreground truncate mt-0.5", children: subText }))] }), _jsx("div", { className: "absolute right-3 top-1/2 -translate-y-1/2", children: _jsx(Button, { variant: "ghost", onClick: onEditClick, className: "h-8 px-3 text-xs font-medium transition-colors hover:bg-accent hover:text-accent-foreground", children: "Edit" }) })] }));
+}
+//# sourceMappingURL=component.js.map

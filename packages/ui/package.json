@@ -7,24 +7,32 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
     },
     "./primitives": {
       "types": "./dist/primitives/index.d.ts",
-      "import": "./dist/primitives/index.js"
+      "import": "./dist/primitives/index.js",
+      "require": "./dist/primitives/index.js",
+      "default": "./dist/primitives/index.js"
     },
     "./primitives/*": {
       "types": "./dist/primitives/*/index.d.ts",
-      "import": "./dist/primitives/*/index.js"
+      "import": "./dist/primitives/*/index.js",
+      "require": "./dist/primitives/*/index.js",
+      "default": "./dist/primitives/*/index.js"
     },
     "./utils": {
       "types": "./dist/utils/index.d.ts",
-      "import": "./dist/utils/index.js"
+      "import": "./dist/utils/index.js",
+      "require": "./dist/utils/index.js",
+      "default": "./dist/utils/index.js"
     }
   },
   "files": ["dist"],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node ./scripts/fix-exports.cjs",
     "dev": "tsc --watch",
     "clean": "rm -rf dist"
   },

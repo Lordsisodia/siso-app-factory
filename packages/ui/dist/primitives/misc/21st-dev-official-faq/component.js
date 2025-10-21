@@ -1,0 +1,8 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, } from "@/components/ui/accordion";
+import { cn } from "@/lib/utils";
+export function FAQ({ simplified = false, faqs = [] }) {
+    const displayFaqs = simplified ? faqs.slice(0, 5) : faqs;
+    return (_jsxs("section", { className: simplified ? "" : "py-10 lg:py-24 px-4 !mt-0", children: [!simplified && (_jsxs("div", { className: "text-center", children: [_jsx("h2", { className: "text-3xl font-bold tracking-tight text-foreground sm:text-4xl", children: "Frequently Asked Questions" }), _jsx("p", { className: "mt-4 text-lg text-muted-foreground", children: "Everything you need to know" })] })), _jsx("div", { className: cn("mx-auto space-y-4", simplified ? "" : "mt-16 max-w-3xl"), children: _jsx(Accordion, { type: "single", collapsible: true, className: "w-full", children: displayFaqs.map((faq, index) => (_jsxs(AccordionItem, { value: `item-${index}`, className: "rounded-lg border border-border px-4 bg-muted/50 mb-4 data-[state=open]:bg-muted", children: [_jsx(AccordionTrigger, { className: "text-lg font-semibold text-foreground hover:no-underline py-4 text-left w-full flex justify-between", children: faq.question }), _jsx(AccordionContent, { className: "text-muted-foreground pb-4", children: _jsx("div", { className: "text-left", children: faq.answer }) })] }, index))) }) })] }));
+}
+//# sourceMappingURL=component.js.map

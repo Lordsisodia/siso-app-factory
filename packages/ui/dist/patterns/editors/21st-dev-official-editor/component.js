@@ -1,0 +1,158 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import React, { useEffect, useMemo } from "react";
+import { SandpackProvider, SandpackLayout, SandpackPreview, OpenInCodeSandboxButton, } from "@codesandbox/sandpack-react";
+import { CodeManagerProvider, useCodeManager, useActionRequired, usePreviewReady, } from "./context/editor-state";
+import { EditorCodePanel } from "./editor-code-panel";
+import { FileExplorer } from "./file-explorer";
+import { RequirementsPanel } from "./requirements-panel";
+import { cn } from "@/lib/utils";
+const MemoizedEditorContent = React.memo(EditorContent);
+export function Editor({ initialFiles, mainComponentPath, unresolvedDependencies = [], onCodeChange, isUnresolvedDependencyFn, activePath, sandpackTemplate = "react-ts", dependencies = {}, visiblePaths, loadingFiles = [], actionRequiredFiles = [], processedData, }) {
+    // Cache sandpack configuration to prevent re-creation
+    const sandpackConfig = useMemo(() => {
+        return {
+            files: initialFiles,
+            template: sandpackTemplate,
+            customSetup: {
+                dependencies: {
+                    // Default dependencies
+                    react: "^18.0.0",
+                    "react-dom": "^18.0.0",
+                    "@radix-ui/react-icons": "^1.3.0",
+                    "class-variance-authority": "^0.7.0",
+                    clsx: "^2.0.0",
+                    "tailwind-merge": "^1.14.0",
+                    "tailwindcss-animate": "^1.0.7",
+                    ...dependencies,
+                },
+            },
+        };
+    }, [initialFiles, sandpackTemplate, dependencies]);
+    // Создаем стабильный ключ для CodeManagerProvider, который не меняется при каждом рендере
+    const stableKey = useMemo(() => `editor-${mainComponentPath}-${Object.keys(initialFiles).length}`, [mainComponentPath, Object.keys(initialFiles).length]);
+    return (_jsx(SandpackProvider, { ...sandpackConfig, children: _jsx(CodeManagerProvider, { initialComponentPath: activePath || mainComponentPath, unresolvedDependencies: unresolvedDependencies, onFileContentChange: onCodeChange, isUnknownComponentFn: isUnresolvedDependencyFn, children: _jsx("div", { className: "flex flex-col h-full", children: _jsx(MemoizedEditorContent, { visiblePaths: visiblePaths, loadingFiles: loadingFiles, actionRequiredFiles: actionRequiredFiles, processedData: processedData }) }) }, stableKey) }));
+}
+function EditorContent({ visiblePaths, loadingFiles = [], actionRequiredFiles = [], processedData, }) {
+    const { activeFile, selectFile, isUnresolvedDependency, getComponentName, unresolvedDependencies, loadingComponents, addFile, allFiles, getFileContent, } = useCodeManager();
+    const { markFileAsRequiringAction, markFileAsResolved, getActionDetails } = useActionRequired();
+    // Get preview ready state
+    const { previewReady } = usePreviewReady();
+    // Initialize action required files from props only when they change
+    useEffect(() => {
+        // We need to prevent infinite loops by tracking processed files
+        const processedFileTracker = new Set();
+        // Clear existing action required files
+        actionRequiredFiles.forEach((file) => {
+            // Skip if we've already processed this file in this effect run
+            if (processedFileTracker.has(file))
+                return;
+            processedFileTracker.add(file);
+            // For each file marked as requiring action in props
+            if (file === "/tailwind.config.js" || file === "/globals.css") {
+                if (processedData?.additionalStyles?.required) {
+                    const details = {
+                        reason: "styles",
+                        tailwindExtensions: processedData.additionalStyles.tailwindExtensions,
+                        cssVariables: processedData.additionalStyles.cssVariables,
+                        keyframes: processedData.additionalStyles.keyframes,
+                        utilities: processedData.additionalStyles.utilities,
+                    };
+                    markFileAsRequiringAction(file, details);
+                }
+            }
+            else {
+                // For other files (likely missing imports)
+                markFileAsRequiringAction(file, {
+                    reason: "unresolved_dependencies",
+                    message: "This component requires additional imports",
+                });
+            }
+        });
+    }, [actionRequiredFiles, processedData, markFileAsRequiringAction]);
+    // Auto-resolve action required for unknown components when edited
+    useEffect(() => {
+        if (!activeFile)
+            return;
+        // Check if this is an unknown component with required action
+        if (isUnresolvedDependency(activeFile)) {
+            const actionDetails = getActionDetails(activeFile);
+            if (actionDetails) {
+                const content = getFileContent(activeFile);
+                // If content has been changed from the default template
+                if (content && !content.includes("TODO: Implement")) {
+                    console.log("[Editor] Auto-resolving action for edited unknown component:", activeFile);
+                    markFileAsResolved(activeFile);
+                }
+            }
+        }
+    }, [
+        activeFile,
+        isUnresolvedDependency,
+        getActionDetails,
+        getFileContent,
+        markFileAsResolved,
+    ]);
+    // Handle file selection
+    const handleFileSelect = (path) => {
+        console.log("[Editor] File selected:", {
+            path,
+            isUnknown: isUnresolvedDependency(path),
+            existingFiles: allFiles,
+        });
+        // Normalize path - remove @/ prefix if present
+        const normalizedPath = path.replace(/^@\//, "/");
+        // Check if this is an unknown component and create an empty file if needed
+        if (isUnresolvedDependency(path)) {
+            // Get component name
+            const componentName = getComponentName(path);
+            // Only create the file if it doesn't already exist in the codebase
+            const fileExists = allFiles.includes(normalizedPath);
+            console.log("[Editor] Unknown component selected:", {
+                path,
+                normalizedPath,
+                componentName,
+                fileExists,
+                isInSandpack: allFiles.includes(normalizedPath),
+            });
+            if (!fileExists) {
+                console.log("[Editor] Creating file for unknown component:", {
+                    originalPath: path,
+                    normalizedPath,
+                    componentName,
+                });
+                // Create an empty file for the unknown component
+                addFile(normalizedPath, `// TODO: Implement ${componentName || "this"} component`);
+                // Mark it as requiring action
+                markFileAsRequiringAction(normalizedPath, {
+                    reason: "unresolved_dependencies",
+                    message: `This component needs to be implemented`,
+                });
+            }
+            else {
+                console.log("[Editor] Unknown component file already exists:", normalizedPath);
+            }
+        }
+        // Always select the normalized path
+        console.log("[Editor] Selecting file:", normalizedPath);
+        selectFile(normalizedPath);
+    };
+    // Combine loading files from props and from context
+    const allLoadingFiles = React.useMemo(() => {
+        const combinedFiles = [...loadingFiles];
+        if (loadingComponents && loadingComponents.length > 0) {
+            loadingComponents.forEach((file) => {
+                if (!combinedFiles.includes(file)) {
+                    combinedFiles.push(file);
+                }
+            });
+        }
+        return combinedFiles;
+    }, [loadingFiles, loadingComponents]);
+    // Check if the current file needs style updates
+    const actionDetails = activeFile && getActionDetails(activeFile);
+    const showStylePanel = !!actionDetails && actionDetails.reason === "styles";
+    return (_jsxs(SandpackLayout, { style: { height: "100%", border: "none" }, children: [_jsxs("div", { className: "flex w-full h-full", children: [_jsx("div", { className: "flex border-r border-border", "data-file-explorer": true, children: _jsx(FileExplorer, { unresolvedDependencies: unresolvedDependencies, onFileSelect: handleFileSelect, selectedFile: activeFile, visibleFiles: visiblePaths, loadingFiles: allLoadingFiles }) }), _jsx("div", { className: cn("flex-1", previewReady && "max-w-[50%] border-r border-border"), children: _jsx(EditorCodePanel, { componentPath: activeFile || "", onCodeChange: () => {
+                                // This will be handled by the CodeManager through the CodeEditor component
+                            } }) }), previewReady && (_jsxs("div", { className: "flex-1 flex flex-col", children: [_jsxs("div", { className: "p-2 border-b border-border bg-muted/30 flex justify-between items-center", children: [_jsx("h3", { className: "text-sm font-medium", children: "Preview" }), _jsx(OpenInCodeSandboxButton, {})] }), _jsx("div", { className: "flex-1", children: _jsx(SandpackPreview, { showNavigator: true, showRefreshButton: true, showOpenInCodeSandbox: false }) })] }))] }), showStylePanel && _jsx(RequirementsPanel, { activeFile: activeFile })] }));
+}
+//# sourceMappingURL=component.js.map
