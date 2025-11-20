@@ -1,0 +1,298 @@
+# SISO App Factory - Orchestration Metadata
+# Version: 2.0
+
+framework:
+  name: "SISO App Factory"
+  version: "2.0.0"
+  type: "universal-prd-framework"
+  updated: "2025-10-20"
+
+stack_defaults:
+  frontend:
+    framework: "Next.js 15"
+    language: "TypeScript"
+    styling: "TailwindCSS"
+    ui_library: "shadcn/ui"
+    state: "React Query"
+    forms: "React Hook Form"
+
+  backend:
+    platform: "Supabase"
+    database: "PostgreSQL"
+    auth: "NextAuth.js (Auth.js)"
+    storage: "Supabase Storage"
+    edge_functions: "Supabase Edge Functions"
+    orm: "Prisma"  # or Drizzle
+    validation: "Zod"
+
+  infrastructure:
+    deployment: "Vercel"
+    cicd: "GitHub Actions"
+    monitoring: "Sentry"
+    analytics:
+      web: "GA4"
+      product: "Mixpanel"
+      errors: "Sentry"
+
+  integrations:
+    payments: "Stripe"
+    email: "Resend"
+    sms: "Twilio"  # optional
+    storage_cdn: "Cloudinary"  # or R2
+
+architecture:
+  pattern: "Domain-Driven Design"
+  multi_tenancy: "Single DB with tenant_id + RLS"
+  folder_structure: "src/domains/*"
+
+macro_phases:
+  - id: "discovery"
+    name: "Discovery"
+    duration_days: 3
+    sub_phases:
+      - "industry_research"
+      - "competitor_analysis"
+      - "feature_discovery"
+    outputs:
+      - "docs/01-research/research-summary.md"
+      - "docs/03-features/features.md"
+      - "docs/03-features/feature-matrix.md"
+    validation:
+      min_sources: 10
+      min_competitors: 10
+      min_features: 50
+    tools_required:
+      - "WebSearch"
+      - "WebFetch"
+      - "mcp__exa__deep_researcher_start"
+
+  - id: "definition"
+    name: "Definition"
+    duration_days: 4
+    sub_phases:
+      - "architecture_design"
+      - "domain_planning"
+      - "database_schema"
+      - "component_mapping"
+    outputs:
+      - "docs/05-technical/architecture.md"
+      - "docs/05-technical/schema-spec.md"
+      - "docs/05-technical/erd.md"
+      - "docs/05-technical/component-catalog.md"
+      - "docs/08-build-plan/domains/*.md"
+      - "siso-site-config.yaml"  # Config-driven theming
+    validation:
+      min_domains: 10
+      max_domains: 20
+      min_tables: 20
+      min_components: 50
+      components_from_library_percent: 70  # At least 70% from SISO-UI-Library
+      config_driven_theming: true  # Must include site config
+    tools_required:
+      - "mermaid"  # for diagrams
+      - "markdown"
+    context_required:
+      - "SISO-UI-Library catalog"  # Must load before component planning
+      - "integrations/SISO-UI-LIBRARY-COMPONENT-MAPPING.md"
+      - "integrations/CONFIG-DRIVEN-THEMING-GUIDE.md"
+
+  - id: "delivery"
+    name: "Delivery"
+    duration_days: 3
+    sub_phases:
+      - "pdr_creation"
+      - "build_plan"
+      - "implementation_roadmap"
+    outputs:
+      - "docs/06-pdr/PDR.md"
+      - "docs/08-build-plan/master-checklist.md"
+      - "docs/08-build-plan/fast-track.md"
+    validation:
+      min_pdr_sections: 10
+      min_build_tasks: 100
+      timeline_weeks: 12
+    tools_required:
+      - "markdown"
+
+bmad:
+  enabled: true
+  auto_download: true
+  version: "latest"
+  location: "docs/00-methods/bmad/vendor/BMAD-METHOD"
+  integration:
+    - "domain_operations"
+    - "workflow_orchestration"
+    - "quality_checklists"
+
+quality_control:
+  auto_verification: true
+  phase_completion_checks: true
+  context_carryover: true
+  error_recovery: true
+
+  verification_rules:
+    discovery:
+      - "research-summary.md must cite 10+ sources"
+      - "feature-matrix.md must analyze 10+ competitors"
+      - "features.md must document 50+ features"
+      - "All statistics must have sources and dates"
+
+    definition:
+      - "architecture.md must define 10-20 domains"
+      - "schema-spec.md must define 20+ tables"
+      - "All domains must have RLS policies"
+      - "Component catalog must list 50+ components"
+
+    delivery:
+      - "PDR.md must be 10+ pages"
+      - "master-checklist.md must have 100+ tasks"
+      - "Timeline must be 12-16 weeks"
+      - "All phases must have dependencies mapped"
+
+siso_ui_library:
+  enabled: true
+  location: "/Users/shaansisodia/DEV/SISO-ECOSYSTEM/SISO-UI-Library/"
+  catalog: "COMPLETE-EXTRACTION-INVENTORY.md"
+  total_components: 1132  # SISO-UI-Library component files
+  library_folders: 139
+  size_gb: 2.7
+  integration: "REQUIRED for component planning phase - load before Phase 5"
+  reuse_target_percent: 85  # Target 85%+ component reuse
+
+siso_app_factory_components:
+  enabled: true
+  location: "siso-app-factory/packages/*/components/"
+  total_components: 851  # Custom production-tested components
+  integration: "Reference for proven patterns"
+
+total_component_ecosystem:
+  components: 1983  # 1132 + 851
+  estimated_with_variants: "2000-3000"
+  competitive_advantage: "Largest curated React component library"
+
+config_driven_theming:
+  enabled: true
+  config_file: "siso-site-config.yaml"
+  database_table: "site_config"
+  theme_provider: "src/shared/providers/ThemeProvider.tsx"
+  css_variables: true
+  realtime_updates: true
+  admin_ui: true
+
+context_documents:
+  deep_research: "context/10-research/DEEP-RESEARCH-CONTEXT.md"
+  ai_framework_questions: "context/10-research/AI-FRAMEWORK-RESEARCH-QUESTIONS.md"
+  ai_framework_findings: "context/10-research/AI-FRAMEWORK-RESEARCH-FINDINGS.md"  # 25min deep research on Priority 20 questions
+  supabase_guide: "integrations/SUPABASE-INTEGRATION-GUIDE.md"
+  nextauth_guide: "integrations/NEXTAUTH-INTEGRATION-GUIDE.md"
+  clerk_guide_archived: "integrations/archived/CLERK-INTEGRATION-GUIDE.md"  # Archived for reference
+  component_mapping: "integrations/SISO-UI-LIBRARY-COMPONENT-MAPPING.md"
+  theming_guide: "integrations/CONFIG-DRIVEN-THEMING-GUIDE.md"
+  industry_knowledge_bases: "knowledge-bases/"
+
+templates:
+  research: "templates/01-research-phase.md"
+  features: "templates/02-feature-planning.md"
+  architecture: "templates/03-architecture-design.md"
+  domains: "templates/04-domain-planning.md"
+  database: "templates/05-database-schema.md"
+  components: "templates/06-component-mapping.md"
+  build_plan: "templates/07-build-plan.md"
+  config: "templates/project-config.yaml"
+
+prompts:
+  industry_research: "prompts/industry-research-prompt.md"
+  competitor_analysis: "prompts/competitor-analysis-prompt.md"
+  feature_discovery: "prompts/feature-discovery-prompt.md"
+  architecture_planning: "prompts/architecture-planning-prompt.md"
+  domain_design: "prompts/domain-design-prompt.md"
+  build_planning: "prompts/build-planning-prompt.md"
+
+ai_autonomy:
+  self_verification: true
+  auto_phase_completion: true
+  context_summarization: true
+  error_recovery: true
+
+  completion_criteria:
+    discovery:
+      - "All outputs exist"
+      - "Validation rules pass"
+      - "Quality score >= 80%"
+
+    definition:
+      - "All outputs exist"
+      - "Validation rules pass"
+      - "Domain count in range"
+      - "Quality score >= 85%"
+
+    delivery:
+      - "All outputs exist"
+      - "Validation rules pass"
+      - "Build plan complete"
+      - "Quality score >= 90%"
+
+cost_management:
+  free_tier_tracking: true
+  targets:
+    supabase:
+      database_mb: 500
+      storage_gb: 1
+      bandwidth_gb: 5
+      edge_functions: 500000
+      auth_mau: 50000  # NextAuth sessions stored in Supabase
+
+    nextauth:
+      cost: "$0"  # 100% free, open source
+      mau: "unlimited"
+      session_storage: "Supabase"
+
+    vercel:
+      bandwidth_gb: 100
+      function_invocations: 1000000
+      build_minutes: 6000
+
+performance_targets:
+  fcp_ms: 1800  # First Contentful Paint
+  lcp_ms: 2500  # Largest Contentful Paint
+  tti_ms: 3800  # Time to Interactive
+  cls: 0.1  # Cumulative Layout Shift
+  fid_ms: 100  # First Input Delay
+
+security_standards:
+  - "OWASP Top 10 compliance"
+  - "RLS enabled on all tables"
+  - "JWT verification on all authenticated routes"
+  - "Input validation with Zod"
+  - "Rate limiting on all endpoints"
+  - "CORS properly configured"
+  - "Security headers set"
+
+accessibility_standards:
+  - "WCAG 2.1 Level AA"
+  - "Keyboard navigation"
+  - "Screen reader support"
+  - "Color contrast ratios"
+  - "Focus indicators"
+  - "Semantic HTML"
+
+testing_requirements:
+  - "Unit tests for business logic"
+  - "Integration tests for API endpoints"
+  - "E2E tests for critical paths"
+  - "Accessibility tests"
+  - "Performance tests"
+
+documentation_requirements:
+  - "API documentation"
+  - "Component library (Storybook)"
+  - "User guide"
+  - "Admin manual"
+  - "Deployment guide"
+
+success_metrics:
+  planning_completion_time_hours: 40  # 5 days × 8 hours
+  implementation_time_weeks: 12
+  code_coverage_percent: 80
+  lighthouse_score: 90
+  user_satisfaction: 4.5  # out of 5

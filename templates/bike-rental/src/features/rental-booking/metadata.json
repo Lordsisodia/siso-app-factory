@@ -1,0 +1,36 @@
+{
+  "id": "rental-booking-system",
+  "name": "Rental Booking System",
+  "domain": "bike-rental",
+  "category": "feature",
+  "description": "Complete rental booking system with BookingModal, date range selection, pricing calculations, and reservation management",
+  "solves": [
+    "Equipment rental bookings",
+    "Date range selection",
+    "Dynamic pricing calculation",
+    "Reservation confirmation",
+    "Booking management"
+  ],
+  "includes": {
+    "components": "BookingModal, DatePickerField, PricingSidebar, ReservationSummary",
+    "hooks": "Booking state management",
+    "utils": "Date calculations, pricing logic"
+  },
+  "best_for": [
+    "Bike rental platforms",
+    "Car rental services",
+    "Equipment rental",
+    "Hotel bookings",
+    "Any date-range based rental"
+  ],
+  "requires": {
+    "database": "Product inventory",
+    "state": "Booking state management"
+  },
+  "setup_time": "30 minutes",
+  "complexity": "medium",
+  "maturity": "production-ready",
+  "business_value": "Saves 2-3 weeks development, $8,000-$12,000",
+  "extracted_from": "Five Star Car Hire",
+  "tags": ["booking", "rental", "reservations", "date-range", "pricing"]
+}

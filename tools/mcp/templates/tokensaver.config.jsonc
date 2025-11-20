@@ -1,0 +1,15 @@
+// Copy to .mcp/config/tokensaver.json
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/servers/tokensaver.json",
+  "server": "tokensaver",
+  "version": "0.1",
+  "env": {
+    "TOKENSAVER_API_KEY": "<api_key>",
+    "TOKENSAVER_BASE_URL": "https://api.tokensaver.ai"
+  },
+  "options": {
+    "preferred_models": ["gpt-5.1", "claude-3.5"],
+    "max_context_tokens": 128000,
+    "cache_minutes": 30
+  }
+}

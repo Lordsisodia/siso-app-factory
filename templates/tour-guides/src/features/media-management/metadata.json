@@ -1,0 +1,11 @@
+{
+  "id": "media-management",
+  "name": "media management",
+  "domain": "tour-guides",
+  "category": "feature",
+  "description": "Complete media-management feature from Mallorca Activities",
+  "solves": ["Feature-specific problems"],
+  "tags": ["media,management"],
+  "maturity": "production-ready",
+  "extracted_from": "Mallorca Activities"
+}

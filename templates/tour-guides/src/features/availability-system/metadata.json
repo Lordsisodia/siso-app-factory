@@ -1,0 +1,11 @@
+{
+  "id": "availability-system",
+  "name": "availauility system",
+  "domain": "tour-guides",
+  "category": "feature",
+  "description": "Complete availability-system feature from Mallorca Activities",
+  "solves": ["Feature-specific problems"],
+  "tags": ["availability,system"],
+  "maturity": "production-ready",
+  "extracted_from": "Mallorca Activities"
+}

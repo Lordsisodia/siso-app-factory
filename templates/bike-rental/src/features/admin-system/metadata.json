@@ -1,0 +1,16 @@
+{
+  "id": "admin-management-system",
+  "name": "Admin Management System",
+  "domain": "bike-rental",
+  "category": "feature",
+  "description": "Admin system with product availability management and admin layout",
+  "solves": ["Product inventory management", "Availability tracking", "Admin interface"],
+  "includes": {
+    "components": "ProductAvailabilityManager, AdminLayout"
+  },
+  "best_for": ["Rental admin panels", "Inventory management", "Admin dashboards"],
+  "setup_time": "25 minutes",
+  "maturity": "production-ready",
+  "extracted_from": "Five Star Car Hire",
+  "tags": ["admin", "inventory", "management", "availability"]
+}

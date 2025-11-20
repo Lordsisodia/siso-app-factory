@@ -1,0 +1,36 @@
+{
+  "id": "21st-dev-official-requirements-panel",
+  "name": "requirements-panel",
+  "description": "requirements-panel component from 21st-dev-official",
+  "type": "mis",
+  "category": "primitive",
+  "visual_style": "standard, clean",
+  "visual_weight": "medium",
+  "aesthetic": "professional",
+  "best_for": [
+    "General use"
+  ],
+  "use_cases": [],
+  "avoid_for": [],
+  "complexity": "simple",
+  "customization": "high",
+  "accessibility": "AA compliant",
+  "animation": false,
+  "responsive": true,
+  "dark_mode": true,
+  "source": "21st-dev-official",
+  "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/21st-dev-official/temp/apps/web/components/features/studio/editor/requirements-panel.tsx",
+  "tags": [
+    "mis",
+    "requirements-panel",
+    "21st-dev-official"
+  ],
+  "industry_fit": {
+    "restaurants": 0.9,
+    "tour-guides": 0.9,
+    "bike-rental": 0.9,
+    "general": 1
+  },
+  "created_at": "2025-10-19T20:14:04.717Z",
+  "auto_generated": true
+}

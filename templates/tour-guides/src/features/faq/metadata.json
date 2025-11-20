@@ -1,0 +1,10 @@
+{
+  "id": "faq-system",
+  "name": "FAQ system",
+  "domain": "tour-guides",
+  "category": "feature",
+  "description": "Reusable FAQ experience wiring using @siso/experiences-faq",
+  "solves": ["Customer Q&A", "Support deflection"],
+  "tags": ["faq", "knowledge-base"],
+  "maturity": "beta"
+}

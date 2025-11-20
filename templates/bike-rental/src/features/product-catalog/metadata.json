@@ -1,0 +1,17 @@
+{
+  "id": "product-catalog-system",
+  "name": "Product Catalog System",
+  "domain": "bike-rental",
+  "category": "feature",
+  "description": "Complete product catalog with cards, grids, carousels, filtering, and recently viewed tracking",
+  "solves": ["Product display", "Catalog browsing", "Product filtering", "Recently viewed history"],
+  "includes": {
+    "components": "ProductCard, CategoryCards, ProductGrid, ProductCarousel, SpecsGrid, RecentlyViewed",
+    "utils": "Product utilities, view history tracking"
+  },
+  "best_for": ["Bike rentals", "Car rentals", "Equipment catalogs", "E-commerce"],
+  "setup_time": "20 minutes",
+  "maturity": "production-ready",
+  "extracted_from": "Five Star Car Hire",
+  "tags": ["catalog", "products", "display", "grid", "carousel"]
+}

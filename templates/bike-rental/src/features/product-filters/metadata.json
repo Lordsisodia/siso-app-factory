@@ -1,0 +1,16 @@
+{
+  "id": "product-filter-system",
+  "name": "Product Filter System",
+  "domain": "bike-rental",
+  "category": "feature",
+  "description": "Advanced product filtering with filter drawer and multi-criteria filtering",
+  "solves": ["Product filtering", "Search refinement", "Category filtering"],
+  "includes": {
+    "components": "ProductFilters, FilterDrawer"
+  },
+  "best_for": ["Product catalogs", "E-commerce", "Rental platforms"],
+  "setup_time": "15 minutes",
+  "maturity": "production-ready",
+  "extracted_from": "Five Star Car Hire",
+  "tags": ["filters", "search", "categories", "refinement"]
+}

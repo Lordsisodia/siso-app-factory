@@ -1,0 +1,36 @@
+{
+  "id": "bike-hire-ui-library-specs-grid",
+  "name": "specs-grid",
+  "description": "specs-grid component from bike-hire-ui-library",
+  "type": "mis",
+  "category": "primitive",
+  "visual_style": "standard, clean",
+  "visual_weight": "medium",
+  "aesthetic": "professional",
+  "best_for": [
+    "General use"
+  ],
+  "use_cases": [],
+  "avoid_for": [],
+  "complexity": "simple",
+  "customization": "high",
+  "accessibility": "AA compliant",
+  "animation": false,
+  "responsive": true,
+  "dark_mode": true,
+  "source": "bike-hire-ui-library",
+  "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/bike-hire-ui-library/grids/SpecsGrid/SpecsGrid.tsx",
+  "tags": [
+    "mis",
+    "specs-grid",
+    "bike-hire-ui-library"
+  ],
+  "industry_fit": {
+    "restaurants": 0.9,
+    "tour-guides": 0.9,
+    "bike-rental": 0.9,
+    "general": 1
+  },
+  "created_at": "2025-10-19T20:14:04.838Z",
+  "auto_generated": true
+}

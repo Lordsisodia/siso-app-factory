@@ -1,0 +1,16 @@
+// Copy to .mcp/config/reddit.json
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/servers/reddit.json",
+  "server": "reddit",
+  "version": "0.1",
+  "env": {
+    "REDDIT_CLIENT_ID": "<client_id>",
+    "REDDIT_CLIENT_SECRET": "<client_secret>",
+    "REDDIT_REFRESH_TOKEN": "<refresh_token>",
+    "REDDIT_USER_AGENT": "siso-app-factory/1.0 by <username>"
+  },
+  "options": {
+    "subreddits": ["SaaS", "startups", "EntrepreneurRideAlong"],
+    "max_results": 50
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "park-ui-pagination",
+  "name": "pagination",
+  "description": "pagination component from park-ui",
+  "type": "pagination",
+  "category": "primitive",
+  "visual_style": "standard, clean",
+  "visual_weight": "medium",
+  "aesthetic": "professional",
+  "best_for": [
+    "General use"
+  ],
+  "use_cases": [],
+  "avoid_for": [],
+  "complexity": "simple",
+  "customization": "high",
+  "accessibility": "AA compliant",
+  "animation": false,
+  "responsive": true,
+  "dark_mode": true,
+  "source": "park-ui",
+  "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/park-ui/styled/pagination.tsx",
+  "tags": [
+    "pagination",
+    "pagination",
+    "park-ui"
+  ],
+  "industry_fit": {
+    "restaurants": 0.9,
+    "tour-guides": 0.9,
+    "bike-rental": 0.9,
+    "general": 1
+  },
+  "created_at": "2025-10-19T20:14:04.931Z",
+  "auto_generated": true
+}

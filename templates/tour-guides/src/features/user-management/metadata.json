@@ -1,0 +1,11 @@
+{
+  "id": "user-management",
+  "name": "user management",
+  "domain": "tour-guides",
+  "category": "feature",
+  "description": "Complete user-management feature from Mallorca Activities",
+  "solves": ["Feature-specific problems"],
+  "tags": ["user,management"],
+  "maturity": "production-ready",
+  "extracted_from": "Mallorca Activities"
+}

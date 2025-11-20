@@ -1,0 +1,10 @@
+{
+  "id": "pricing-system",
+  "name": "Pricing system",
+  "domain": "bike-rental",
+  "category": "feature",
+  "description": "Pricing tiers + calculators powered by @siso/experiences-pricing",
+  "solves": ["Subscription pricing", "Plan comparison"],
+  "tags": ["pricing", "plans"],
+  "maturity": "beta"
+}

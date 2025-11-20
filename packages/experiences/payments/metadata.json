@@ -1,0 +1,33 @@
+{
+  "id": "payments-experience",
+  "name": "Payments & Checkout",
+  "type": "experience",
+  "domain": "experiences",
+  "description": "Reusable payment stats, transaction logs, refunds, and export helpers with pluggable providers",
+  "solves": [
+    "Payment analytics dashboards",
+    "Transaction history",
+    "Refund workflows",
+    "Finance exports"
+  ],
+  "includes": {
+    "actions": [
+      "getPaymentStats",
+      "getPaymentTransactions",
+      "getRevenueBreakdown",
+      "getRefundRequests",
+      "processRefund",
+      "exportPaymentData"
+    ],
+    "helpers": ["createPaymentsExperience"],
+    "config": "PaymentsProvider interface (stats, transactions, refunds, export)"
+  },
+  "requires": {
+    "payment_provider": "Stripe, Lemon Squeezy, or custom DB",
+    "environment": "Next.js / Node runtime"
+  },
+  "setup_time": "20 minutes",
+  "complexity": "medium",
+  "maturity": "beta",
+  "tags": ["payments", "checkout", "stripe", "finance", "experience-pack"]
+}

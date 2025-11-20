@@ -1,0 +1,36 @@
+{
+  "id": "21st-dev-official-copy-code-card-button",
+  "name": "copy-code-card-button",
+  "description": "copy-code-card-button component from 21st-dev-official",
+  "type": "button",
+  "category": "primitive",
+  "visual_style": "standard, clean",
+  "visual_weight": "medium",
+  "aesthetic": "professional",
+  "best_for": [
+    "User actions, CTAs, form submissions"
+  ],
+  "use_cases": [],
+  "avoid_for": [],
+  "complexity": "simple",
+  "customization": "high",
+  "accessibility": "AA compliant",
+  "animation": false,
+  "responsive": true,
+  "dark_mode": true,
+  "source": "21st-dev-official",
+  "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/21st-dev-official/temp/apps/web/components/ui/copy-code-card-button.tsx",
+  "tags": [
+    "button",
+    "copy-code-card-button",
+    "21st-dev-official"
+  ],
+  "industry_fit": {
+    "restaurants": 0.9,
+    "tour-guides": 0.9,
+    "bike-rental": 0.9,
+    "general": 1
+  },
+  "created_at": "2025-10-19T20:14:04.746Z",
+  "auto_generated": true
+}

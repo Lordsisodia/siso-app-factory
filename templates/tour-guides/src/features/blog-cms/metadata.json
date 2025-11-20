@@ -1,0 +1,11 @@
+{
+  "id": "blog-cms",
+  "name": "ulog cms",
+  "domain": "tour-guides",
+  "category": "feature",
+  "description": "Complete blog-cms feature from Mallorca Activities",
+  "solves": ["Feature-specific problems"],
+  "tags": ["blog,cms"],
+  "maturity": "production-ready",
+  "extracted_from": "Mallorca Activities"
+}

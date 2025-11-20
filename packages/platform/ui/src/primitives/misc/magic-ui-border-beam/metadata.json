@@ -1,0 +1,36 @@
+{
+  "id": "magic-ui-border-beam",
+  "name": "border-beam",
+  "description": "border-beam component from magic-ui",
+  "type": "mis",
+  "category": "primitive",
+  "visual_style": "modern, animated, premium",
+  "visual_weight": "medium",
+  "aesthetic": "professional",
+  "best_for": [
+    "General use"
+  ],
+  "use_cases": [],
+  "avoid_for": [],
+  "complexity": "simple",
+  "customization": "high",
+  "accessibility": "AA compliant",
+  "animation": true,
+  "responsive": true,
+  "dark_mode": true,
+  "source": "magic-ui",
+  "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/magic-ui/border-beam.tsx",
+  "tags": [
+    "mis",
+    "border-beam",
+    "magic-ui"
+  ],
+  "industry_fit": {
+    "restaurants": 0.9,
+    "tour-guides": 0.9,
+    "bike-rental": 0.9,
+    "general": 1
+  },
+  "created_at": "2025-10-19T20:14:04.868Z",
+  "auto_generated": true
+}

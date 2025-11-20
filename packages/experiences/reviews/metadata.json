@@ -1,0 +1,33 @@
+{
+  "id": "reviews-experience",
+  "name": "Reviews & Ratings",
+  "type": "experience",
+  "domain": "experiences",
+  "description": "Reusable Supabase-powered reviews actions with analytics, moderation, and notification hooks",
+  "solves": [
+    "Collecting verified customer reviews",
+    "Calculating rating statistics",
+    "Publishing/moderating feedback",
+    "Triggering alerts for poor reviews"
+  ],
+  "includes": {
+    "actions": [
+      "getActivityReviews",
+      "getActivityReviewStats",
+      "createReview",
+      "updateReviewHelpfulVotes",
+      "getUserActivityReview",
+      "getUserActivityBookings"
+    ],
+    "helpers": ["createReviewActions"],
+    "config": "Supabase client + optional badReviewNotifier"
+  },
+  "requires": {
+    "database": "Supabase table: reviews (plus bookings & activities for stats)",
+    "environment": "Next.js App Router or any Node runtime with Supabase"
+  },
+  "setup_time": "15 minutes",
+  "complexity": "medium",
+  "maturity": "beta",
+  "tags": ["reviews", "ratings", "supabase", "experience-pack"]
+}

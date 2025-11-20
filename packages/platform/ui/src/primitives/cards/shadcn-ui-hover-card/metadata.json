@@ -1,0 +1,36 @@
+{
+  "id": "shadcn-ui-hover-card",
+  "name": "hover-card",
+  "description": "hover-card component from shadcn-ui",
+  "type": "card",
+  "category": "primitive",
+  "visual_style": "minimal, clean, professional",
+  "visual_weight": "medium",
+  "aesthetic": "professional",
+  "best_for": [
+    "Content display, grid items, information containers"
+  ],
+  "use_cases": [],
+  "avoid_for": [],
+  "complexity": "simple",
+  "customization": "high",
+  "accessibility": "AA compliant",
+  "animation": false,
+  "responsive": true,
+  "dark_mode": true,
+  "source": "shadcn-ui",
+  "source_file": "/Users/shaansisodia/DEV/PERSONAL/CLIENT-WORK/client-projects/Restraunt/SISO-UI-Library/shadcn-ui/src/components/ui/hover-card.tsx",
+  "tags": [
+    "card",
+    "hover-card",
+    "shadcn-ui"
+  ],
+  "industry_fit": {
+    "restaurants": 0.9,
+    "tour-guides": 0.9,
+    "bike-rental": 0.9,
+    "general": 1
+  },
+  "created_at": "2025-10-19T20:14:05.058Z",
+  "auto_generated": true
+}

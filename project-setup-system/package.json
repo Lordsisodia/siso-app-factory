@@ -1,0 +1,23 @@
+{
+  "name": "project-setup-system",
+  "private": true,
+  "scripts": {
+    "setup:jtbd": "node scripts/checklist.mjs setup:jtbd",
+    "setup:status": "node scripts/checklist.mjs setup:status",
+    "discovery:refresh": "node scripts/checklist.mjs discovery:refresh",
+    "phase3:ac": "node scripts/checklist.mjs phase3:ac",
+    "prd:shard": "node scripts/checklist.mjs prd:shard",
+    "arch:compile": "node scripts/checklist.mjs arch:compile",
+    "validate": "node scripts/checklist.mjs validate",
+    "spec:verify": "node scripts/checklist.mjs spec:verify",
+    "prd:diff": "node scripts/checklist.mjs prd:diff",
+    "mcp:init": "node scripts/checklist.mjs mcp:init",
+    "po:report": "node scripts/checklist.mjs po:report",
+    "logs:append": "node scripts/checklist.mjs logs:append",
+    "status:complete": "node scripts/checklist.mjs status:complete"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}

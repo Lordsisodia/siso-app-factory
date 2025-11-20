@@ -1,0 +1,23 @@
+{
+  "name": "@siso/auth-system",
+  "version": "1.0.0",
+  "description": "Reusable Supabase authentication system with beautiful UI components",
+  "main": "index.ts",
+  "author": "SISO",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "next": "^14.0.0 || ^15.0.0",
+    "@supabase/supabase-js": "^2.0.0",
+    "@supabase/ssr": "^0.7.0"
+  },
+  "keywords": [
+    "supabase",
+    "auth",
+    "authentication",
+    "react",
+    "nextjs",
+    "multi-tenant"
+  ]
+}

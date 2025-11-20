@@ -1,0 +1,11 @@
+// Copy to .mcp/config/github.json in each project workspace
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/servers/github.json",
+  "server": "github",
+  "version": "0.1",
+  "env": {
+    "GITHUB_TOKEN": "<personal_access_token>",
+    "GITHUB_REPO": "<org/repo>",
+    "GITHUB_DEFAULT_BRANCH": "main"
+  }
+}
