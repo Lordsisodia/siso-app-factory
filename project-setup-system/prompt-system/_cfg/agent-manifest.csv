@@ -1,0 +1,4 @@
+id,name,title,type,triggers,sidecar
+{project_root}/project-setup-system/.blackbox/context-sweeper/context-sweeper.md,Context Sweeper,Context ingestion scout,simple,*sweep,project-setup-system/.blackbox/context-sweeper
+{project_root}/project-setup-system/.blackbox/planner/planner.md,Plan Smith,Decomposition & step planner,simple,*plan,project-setup-system/.blackbox/planner
+{project_root}/project-setup-system/.blackbox/executor/executor.md,Task Runner,Implementation & verification agent,simple,*execute,project-setup-system/.blackbox/executor

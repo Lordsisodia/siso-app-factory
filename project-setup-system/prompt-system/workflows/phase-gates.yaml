@@ -1,0 +1,22 @@
+name: prompt-system-phase-gates
+phases:
+  - name: Planning
+    steps:
+      - Clarify goal + success criteria
+      - Run context-sweeper (*sweep) and record notes
+      - Identify gaps and missing inputs
+      - Decide routes: UI / Feature / Research
+  - name: Solutioning
+    steps:
+      - Run planner (*plan) to decompose work
+      - Map code touchpoints and tests
+      - Confirm risks/assumptions with user
+  - name: Implementation
+    steps:
+      - Run executor (*execute) per step
+      - Keep diffs + test results in .blackbox logs
+  - name: Assurance
+    steps:
+      - Verify acceptance criteria
+      - Summarize changes + open risks
+      - Prepare handoff prompt for next agent/session
